@@ -129,6 +129,27 @@
             this.prsgbstreetviewbox = new System.Windows.Forms.TextBox();
             this.prsgbaddressviewbox = new System.Windows.Forms.TextBox();
             this.prscellnoviewbox = new System.Windows.Forms.TextBox();
+            this.permanentaddressgroupBox = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.navpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MinimizeICon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseIcon)).BeginInit();
@@ -140,6 +161,8 @@
             this.CustomerFamilyAddressTableLayout.SuspendLayout();
             this.presentAddressgroupbox.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
+            this.permanentaddressgroupBox.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // navpanel
@@ -185,6 +208,7 @@
             // 
             this.mainPanel.AutoScroll = true;
             this.mainPanel.BackColor = System.Drawing.Color.White;
+            this.mainPanel.Controls.Add(this.permanentaddressgroupBox);
             this.mainPanel.Controls.Add(this.presentAddressgroupbox);
             this.mainPanel.Controls.Add(this.customerfamilygroupbox);
             this.mainPanel.Controls.Add(this.CustomerBasicDetailsGroupBox);
@@ -1122,7 +1146,7 @@
             this.presentAddressgroupbox.ForeColor = System.Drawing.Color.Black;
             this.presentAddressgroupbox.Location = new System.Drawing.Point(8, 748);
             this.presentAddressgroupbox.Name = "presentAddressgroupbox";
-            this.presentAddressgroupbox.Size = new System.Drawing.Size(1254, 254);
+            this.presentAddressgroupbox.Size = new System.Drawing.Size(1254, 143);
             this.presentAddressgroupbox.TabIndex = 2;
             this.presentAddressgroupbox.TabStop = false;
             this.presentAddressgroupbox.Text = "Present Address";
@@ -1130,15 +1154,15 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 9;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.58394F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.16545F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.58394F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.58394F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.16545F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.58394F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.58394F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.16545F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.58394F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.769231F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.78526F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.33654F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.13141F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.06731F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.21795F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.929487F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.98077F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 13.78205F));
             this.tableLayoutPanel1.Controls.Add(this.prsthanalabel, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.prsgbstreet, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.prsDevisionlabel, 3, 0);
@@ -1162,8 +1186,8 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(6, 30);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1248, 109);
@@ -1183,7 +1207,7 @@
             // 
             this.prsthanalabel.AutoSize = true;
             this.prsthanalabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prsthanalabel.Location = new System.Drawing.Point(3, 35);
+            this.prsthanalabel.Location = new System.Drawing.Point(3, 37);
             this.prsthanalabel.Name = "prsthanalabel";
             this.prsthanalabel.Size = new System.Drawing.Size(46, 16);
             this.prsthanalabel.TabIndex = 1;
@@ -1203,7 +1227,7 @@
             // 
             this.prsDevisionlabel.AutoSize = true;
             this.prsDevisionlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prsDevisionlabel.Location = new System.Drawing.Point(418, 0);
+            this.prsDevisionlabel.Location = new System.Drawing.Point(401, 0);
             this.prsDevisionlabel.Name = "prsDevisionlabel";
             this.prsDevisionlabel.Size = new System.Drawing.Size(60, 16);
             this.prsDevisionlabel.TabIndex = 4;
@@ -1213,7 +1237,7 @@
             // 
             this.prspostofficelabel.AutoSize = true;
             this.prspostofficelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prspostofficelabel.Location = new System.Drawing.Point(418, 35);
+            this.prspostofficelabel.Location = new System.Drawing.Point(401, 37);
             this.prspostofficelabel.Name = "prspostofficelabel";
             this.prspostofficelabel.Size = new System.Drawing.Size(71, 16);
             this.prspostofficelabel.TabIndex = 5;
@@ -1223,7 +1247,7 @@
             // 
             this.prsgbaddress.AutoSize = true;
             this.prsgbaddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prsgbaddress.Location = new System.Drawing.Point(418, 70);
+            this.prsgbaddress.Location = new System.Drawing.Point(401, 70);
             this.prsgbaddress.Name = "prsgbaddress";
             this.prsgbaddress.Size = new System.Drawing.Size(80, 16);
             this.prsgbaddress.TabIndex = 6;
@@ -1233,7 +1257,7 @@
             // 
             this.prsdistrictlabel.AutoSize = true;
             this.prsdistrictlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prsdistrictlabel.Location = new System.Drawing.Point(833, 0);
+            this.prsdistrictlabel.Location = new System.Drawing.Point(843, 0);
             this.prsdistrictlabel.Name = "prsdistrictlabel";
             this.prsdistrictlabel.Size = new System.Drawing.Size(47, 16);
             this.prsdistrictlabel.TabIndex = 8;
@@ -1243,7 +1267,7 @@
             // 
             this.prscellnolabel.AutoSize = true;
             this.prscellnolabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prscellnolabel.Location = new System.Drawing.Point(833, 70);
+            this.prscellnolabel.Location = new System.Drawing.Point(843, 70);
             this.prscellnolabel.Name = "prscellnolabel";
             this.prscellnolabel.Size = new System.Drawing.Size(51, 16);
             this.prscellnolabel.TabIndex = 9;
@@ -1451,9 +1475,9 @@
             "Yemen",
             "Zambia",
             "Zimbabwe"});
-            this.prsCountrycomboBox.Location = new System.Drawing.Point(135, 3);
+            this.prsCountrycomboBox.Location = new System.Drawing.Point(75, 3);
             this.prsCountrycomboBox.Name = "prsCountrycomboBox";
-            this.prsCountrycomboBox.Size = new System.Drawing.Size(277, 26);
+            this.prsCountrycomboBox.Size = new System.Drawing.Size(320, 26);
             this.prsCountrycomboBox.TabIndex = 0;
             // 
             // prsThanacomboBox
@@ -1463,516 +1487,516 @@
             this.prsThanacomboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.prsThanacomboBox.FormattingEnabled = true;
             this.prsThanacomboBox.Items.AddRange(new object[] {
-            "Abhaynagar Upazila",
-            "Adamdighi Upazila",
-            "Aditmari Upazila",
-            "Agailjhara Upazila",
-            "Ajmiriganj Upazila",
-            "Akhaura Upazila",
-            "Akkelpur Upazila",
-            "Alamdanga Upazila",
-            "Alfadanga Upazila",
-            "Ali Kadam Upazila",
-            "Amtali Upazila",
-            "Anwara Upazila",
-            "Araihazar Upazila",
-            "Ashuganj Upazila",
-            "Assasuni Upazila",
-            "Astagram Upazila",
-            "Ataikula Upazila",
-            "Atgharia Upazila",
-            "Atpara Upazila",
-            "Atrai Upazila",
-            "Atwari Upazila",
-            "Babuganj Upazila",
-            "Badalgachhi Upazila",
-            "Badarganj Upazila",
-            "Bagaichhari Upazila",
-            "Bagatipara Upazila",
-            "Bagerhat Sadar Upazila",
-            "Bagha Upazila",
-            "Bagherpara Upazila",
-            "Bagmara Upazila",
-            "Bahubal Upazila",
-            "Bajitpur Upazila",
-            "Bakerganj Upazila",
-            "Baksiganj Upazila",
-            "Balaganj Upazila",
-            "Baliadangi Upazila",
-            "Baliakandi Upazila",
-            "Bamna Upazila",
-            "Banaripara Upazila",
-            "Bancharampur Upazila",
-            "Bandar Upazila",
-            "Bandarban Sadar Upazila",
-            "Bandor (Chittagong Port) Thana",
-            "Baniyachong Upazila",
-            "Banshkhali Upazila",
-            "Baraigram Upazila",
-            "Barguna Sadar Upazila",
-            "Barhatta Upazila",
-            "Barisal Sadar Upazila",
-            "Barkal Upazila",
-            "Barlekha Upazila",
-            "Barura Upazila",
-            "Basail Upazila",
-            "Batiaghata Upazila",
-            "Bauphal Upazila",
-            "Beanibazar Upazila",
-            "Begumganj Upazila",
-            "Belabo Upazila",
-            "Belaichhari Upazila",
-            "Belkuchi Upazila",
-            "Bera Upazila",
-            "Betagi Upazila",
-            "Bhairab Upazila",
-            "Bhaluka Upazila",
-            "Bhandaria Upazila",
-            "Bhanga Upazila",
-            "Bhangura Upazila",
-            "Bhedarganj Upazila",
-            "Bheramara Upazila",
-            "Bhola Sadar Upazila",
-            "Bholahat Upazila",
-            "Bhuapur Upazila",
-            "Bhurungamari Upazila",
-            "Bijoynagar Upazila",
-            "Biral Upazila",
-            "Birampur Upazila",
-            "Birganj Upazila",
-            "Bishwamvarpur Upazila",
-            "Bishwanath Upazila",
-            "Boalia Thana",
-            "Boalkhali Upazila",
-            "Boalmari Upazila",
-            "Bochaganj Upazila",
-            "Boda Upazila",
-            "Bogra Sadar Upazila",
-            "Brahmanbaria Sadar Upazila",
-            "Brahmanpara Upazila",
-            "Burhanuddin Upazila",
-            "Burichang Upazila",
-            "Chakaria Upazila",
-            "Chandanaish Upazila",
-            "Chandgaon Thana",
-            "Chandina Upazila",
-            "Chandpur Sadar Upazila",
-            "Char Fasson Upazila",
-            "Char Rajibpur Upazila",
-            "Charbhadrasan Upazila",
-            "Charghat Upazila",
-            "Chatkhil Upazila",
-            "Chatmohar Upazila",
-            "Chauddagram Upazila",
-            "Chaugachha Upazila",
-            "Chauhali Upazila",
-            "Chhagalnaiya Upazila",
-            "Chhatak Upazila",
-            "Chilmari Upazila",
-            "Chirirbandar Upazila",
-            "Chitalmari Upazila",
-            "Chuadanga Sadar Upazila",
-            "Chunarughat Upazila",
-            "Comilla Adarsha Sadar Upazila",
-            "Comilla Sadar Dakshin Upazila",
-            "Companiganj Upazila",
-            "Companigonj Upazila",
-            "Cox\'s Bazar Sadar Upazila",
-            "Dacope Upazila",
-            "Daganbhuiyan Upazila",
-            "Damudya Upazila",
-            "Damurhuda Upazila",
-            "Dashmina Upazila",
-            "Daudkandi Upazila",
-            "Daulatkhan Upazila",
-            "Daulatpur Thana",
-            "Daulatpur Upazila",
-            "Daulatpur Upazila",
-            "Debhata Upazila",
-            "Debidwar Upazila",
-            "Debiganj Upazila",
-            "Delduar Upazila",
-            "Derai Upazila",
-            "Dewanganj Upazila",
-            "Dhamoirhat Upazila",
-            "Dhamrai Upazila",
-            "Dhanbari Upazila",
-            "Dharampasha Upazila",
-            "Dhobaura Upazila",
-            "Dhunat Upazila",
-            "Dhupchanchia Upazila",
-            "Dighalia Upazila",
-            "Dighinala Upazila",
-            "Dimla Upazila",
-            "Dinajpur Sadar Upazila",
-            "Dohar Upazila",
-            "Domar Upazila",
-            "Double Mooring Thana",
-            "Dowarabazar Upazila",
-            "Dumki Upazila",
-            "Dumuria Upazila",
-            "Durgapur Upazila",
-            "Durgapur Upazila",
-            "Fakirhat Upazila",
-            "Faridganj Upazila",
-            "Faridpur Sadar Upazila",
-            "Faridpur Upazila",
-            "Fatikchhari Upazila",
-            "Fenchuganj Upazila",
-            "Feni Sadar Upazila",
-            "Fulbaria Upazila",
-            "Fulgazi Upazila",
-            "Gabtali Upazila",
-            "Gaffargaon Upazila",
-            "Gaibandha Sadar Upazila",
-            "Galachipa Upazila",
-            "Gangachhara Upazila",
-            "Gangni Upazila",
-            "Gauripur Upazila",
-            "Gaurnadi Upazila",
-            "Gazaria Upazila",
-            "Gazipur Sadar Upazila",
-            "Ghatail Upazila",
-            "Ghior Upazila",
-            "Ghoraghat Upazila",
-            "Goalandaghat Upazila",
-            "Gobindaganj Upazila",
-            "Godagari Upazila",
-            "Golapganj Upazila",
-            "Gomastapur Upazila",
-            "Gopalganj Sadar Upazila",
-            "Gopalpur Upazila",
-            "Gosairhat Upazila",
-            "Gowainghat Upazila",
-            "Gurudaspur Upazila",
-            "Habiganj Sadar Upazila",
-            "Haimchar Upazila",
-            "Hakimpur Upazila",
-            "Haluaghat Upazila",
-            "Harinakunda Upazila",
-            "Harintana Thana",
-            "Haripur Upazila",
-            "Harirampur Upazila",
-            "Hathazari Upazila",
-            "Hatibandha Upazila",
-            "Hatiya Upazila",
-            "Haziganj Upazila",
-            "Hizla Upazila",
-            "Homna Upazila",
-            "Hossainpur Upazila",
-            "Ishwardi Upazila",
-            "Ishwarganj Upazila",
-            "Islampur Upazila",
-            "Itna Upazila",
-            "Jagannathpur Upazila",
-            "Jaintiapur Upazila",
-            "Jaldhaka Upazila",
-            "Jamalganj Upazila",
-            "Jamalpur Sadar Upazila",
-            "Jessore Sadar Upazila",
-            "Jhalokati Sadar Upazila",
-            "Jhenaidah Sadar Upazila",
-            "Jhenaigati Upazila",
-            "Jhikargachha Upazila",
-            "Jibannagar Upazila",
-            "Joypurhat Sadar Upazila",
-            "Juraichhari Upazila",
-            "Juri Upazila",
-            "Kabirhat Upazila",
-            "Kachua Upazila",
-            "Kachua Upazila",
-            "Kahaloo Upazila",
-            "Kaharole Upazila",
-            "Kalai Upazila",
-            "Kalapara Upazila",
-            "Kalaroa Upazila",
-            "Kalia Upazila",
-            "Kaliakair Upazila",
-            "Kaliganj Upazila",
-            "Kaliganj Upazila",
-            "Kaliganj Upazila",
-            "Kaliganj Upazila",
-            "Kalihati Upazila",
-            "Kalkini Upazila",
-            "Kalmakanda Upazila",
-            "Kalukhali Upazila",
-            "Kamalganj Upazila",
-            "Kamalnagar Upazila",
-            "Kamarkhanda Upazila",
-            "Kanaighat Upazila",
-            "Kapasia Upazila",
-            "Kaptai Upazila",
-            "Karimganj Upazila",
-            "Kasba Upazila",
-            "Kashiani Upazila",
-            "Kathalia Upazila",
-            "Katiadi Upazila",
-            "Kaunia Upazila",
-            "Kawkhali (Betbunia) Upazila",
-            "Kawkhali Upazila",
-            "Kazipur Upazila",
-            "Kendua Upazila",
-            "Keraniganj Upazila",
-            "Keshabpur Upazila",
-            "Khagrachhari Upazila",
-            "Khaliajuri Upazila",
-            "Khalishpur Thana",
-            "Khan Jahan Ali Thana",
-            "Khansama Upazila",
-            "Khetlal Upazila",
-            "Khoksa Upazila",
-            "Kishoreganj Sadar Upazila",
-            "Kishoreganj Upazila",
-            "Kotalipara Upazila",
-            "Kotchandpur Upazila",
-            "Kotwali Thana",
-            "Kotwali Thana",
-            "Koyra Upazila",
-            "Kulaura Upazila",
-            "Kuliarchar Upazila",
-            "Kumarkhali Upazila",
-            "Kurigram Sadar Upazila",
-            "Kushtia Sadar Upazila",
-            "Kutubdia Upazila",
-            "Lakhai Upazila",
-            "Laksam Upazila",
-            "Lakshmichhari Upazila",
-            "Lakshmipur Sadar Upazila",
-            "Lalmohan Upazila",
-            "Lalmonirhat Sadar Upazila",
-            "Lalpur Upazila",
-            "Lama Upazila",
-            "Langadu Upazila",
-            "Lohagara Upazila",
-            "Lohagara Upazila",
-            "Lohajang Upazila",
-            "Madan Upazila",
-            "Madarganj Upazila",
-            "Madaripur Sadar Upazila",
-            "Madhabpur Upazila",
-            "Madhukhali Upazila",
-            "Madhupur Upazila",
-            "Magura Sadar Upazila",
-            "Mahalchhari Upazila",
-            "Maheshkhali Upazila",
-            "Maheshpur Upazila",
-            "Manda Upazila",
-            "Manikchhari Upazila",
-            "Manikgonj Sadar Upazila",
-            "Manirampur Upazila",
-            "Manpura Upazila",
-            "Mathbaria Upazila",
-            "Matihar Thana",
-            "Matiranga Upazila",
-            "Matlab Dakshin Upazila",
-            "Matlab Uttar Upazila",
-            "Meghna Upazila",
-            "Mehendiganj Upazila",
-            "Meherpur Sadar Upazila",
-            "Melandaha Upazila",
-            "Mirpur Upazila",
-            "Mirsharai Upazila",
-            "Mirzaganj Upazila",
-            "Mirzapur Upazila",
-            "Mithamain Upazila",
-            "Mithapukur Upazila",
-            "Mohadevpur Upazila",
-            "Mohammadpur Upazila",
-            "Mohanganj Upazila",
-            "Mohanpur Upazila",
-            "Mollahat Upazila",
-            "Mongla Upazila",
-            "Monohardi Upazila",
-            "Monohargonj Upazila",
-            "Morrelganj Upazila",
-            "Moulvibazar Sadar Upazila",
-            "Mujibnagar Upazila",
-            "Muksudpur Upazila",
-            "Muktagachha Upazila",
-            "Muladi Upazila",
-            "Munshiganj Sadar Upazila",
-            "Muradnagar Upazila",
-            "Mymensingh Sadar Upazila",
-            "Nabiganj Upazila",
-            "Nabinagar Upazila",
-            "Nachole Upazila",
-            "Nagarkanda Upazila",
-            "Nagarpur Upazila",
-            "Nageshwari Upazila",
-            "Naikhongchhari Upazila",
-            "Nakla Upazila",
-            "Nalchity Upazila",
-            "Naldanga Upazila",
-            "Nalitabari Upazila",
-            "Nandail Upazila",
-            "Nandigram Upazila",
-            "Nangalkot Upazila",
-            "Naniyachar Upazila",
-            "Naogaon Sadar Upazila",
-            "Naragati Thana",
-            "Narail Sadar Upazila",
-            "Narayanganj Sadar Upazila",
-            "Naria Upazila",
-            "Narsingdi Sadar Upazila",
-            "Nasirnagar Upazila",
-            "Natore Sadar Upazila",
-            "Nawabganj Sadar Upazila",
-            "Nawabganj Upazila",
-            "Nawabganj Upazila",
-            "Nazirpur Upazila",
-            "Nesarabad (Swarupkati) Upazila",
-            "Netrokona Sadar Upazila",
-            "Niamatpur Upazila",
-            "Nikli Upazila",
-            "Nilphamari Sadar Upazila",
-            "Noakhali Sadar Upazila",
-            "Paba Upazila",
-            "Pabna Sadar Upazila",
-            "Pahartali Thana",
-            "Paikgachha Upazila",
-            "Pakundia Upazila",
-            "Palash Upazila",
-            "Palashbari Upazila",
-            "Panchagarh Sadar Upazila",
-            "Panchbibi Upazila",
-            "Panchhari Upazila",
-            "Panchlaish Thana",
-            "Pangsha Upazila",
-            "Parbatipur Upazila",
-            "Parshuram Upazila",
-            "Patgram Upazila",
-            "Patharghata Upazila",
-            "Patiya Upazila",
-            "Patnitala Upazila",
-            "Patuakhali Sadar Upazila",
-            "Pekua Upazila",
-            "Phulbari Upazila",
-            "Phulbari Upazila",
-            "Phulchhari Upazila",
-            "Phulpur Upazila",
-            "Phultala Upazila",
-            "Pirgachha Upazila",
-            "Pirganj Upazila",
-            "Pirganj Upazila",
-            "Pirojpur Sadar Upazila",
-            "Porsha Upazila",
-            "Purbadhala Upazila",
-            "Puthia Upazila",
-            "Raiganj Upazila",
-            "Raipur Upazila",
-            "Raipura Upazila",
-            "Rajapur Upazila",
-            "Rajarhat Upazila",
-            "Rajasthali Upazila",
-            "Rajbari Sadar Upazila",
-            "Rajnagar Upazila",
-            "Rajoir Upazila",
-            "Rajpara Thana",
-            "Ramganj Upazila",
-            "Ramgarh Upazila",
-            "Ramgati Upazila",
-            "Rampal Upazila",
-            "Ramu Upazila",
-            "Rangabali Upazila",
-            "Rangamati Sadar Upazila",
-            "Rangpur Sadar Upazila",
-            "Rangunia Upazila",
-            "Raninagar Upazila",
-            "Ranisankail Upazila",
-            "Raomari Upazila",
-            "Raozan Upazila",
-            "Rowangchhari Upazila",
-            "Ruma Upazila",
-            "Rupganj Upazila",
-            "Rupsha Upazila",
-            "Sadarpur Upazila",
-            "Sadullapur Upazila",
-            "Saidpur Upazila",
-            "Sakhipur Upazila",
-            "Saltha Upazila",
-            "Sandwip Upazila",
-            "Santhia Upazila",
-            "Sapahar Upazila",
-            "Sarail Upazila",
-            "Sarankhola Upazila",
-            "Sariakandi Upazila",
-            "Sarishabari Upazila",
-            "Satkania Upazila",
-            "Satkhira Sadar Upazila",
-            "Saturia Upazila",
-            "Savar Upazila",
-            "Senbagh Upazila",
-            "Shah Mokdum Thana",
-            "Shahjadpur Upazila",
-            "Shahrasti Upazila",
-            "Shailkupa Upazila",
-            "Shajahanpur Upazila",
-            "Shakhipur Upazila",
-            "Shalikha Upazila",
-            "Shariatpur Sadar Upazila",
-            "Sharsha Upazila",
-            "Shekhpara Upazila",
-            "Sherpur Sadar Upazila",
-            "Sherpur Upazila",
-            "Shibchar Upazila",
-            "Shibganj Upazila",
-            "Shibganj Upazila",
-            "Shibpur Upazila",
-            "Shivalaya Upazila",
-            "Shyamnagar Upazila",
-            "Singair Upazila",
-            "Singra Upazila",
-            "Sirajdikhan Upazila",
-            "Sirajganj Sadar Upazila",
-            "Sitakunda Upazila",
-            "Sonadanga Thana",
-            "Sonagazi Upazila",
-            "Sonaimuri Upazila",
-            "Sonargaon Upazila",
-            "Sonatola Upazila",
-            "South Shurma Upazila",
-            "South Sunamganj Upazila",
-            "Sreebardi Upazila",
-            "Sreemangal Upazila",
-            "Sreenagar Upazila",
-            "Sreepur Upazila",
-            "Sreepur Upazila",
-            "Subarnachar Upazila",
-            "Sughatta Upazila",
-            "Sujanagar Upazila",
-            "Sullah Upazila",
-            "Sunamganj Sadar Upazila",
-            "Sundarganj Upazila",
-            "Sylhet Sadar Upazila",
-            "Tahirpur Upazila",
-            "Tala Upazila",
-            "Taltoli Upazila",
-            "Tangail Sadar Upazila",
-            "Tanore Upazila",
-            "Tara Khanda Upazila",
-            "Taraganj Upazila",
-            "Tarail Upazila",
-            "Tarash Upazila",
-            "Tazumuddin Upazila",
-            "Teknaf Upazila",
-            "Terokhada Upazila",
-            "Tetulia Upazila",
-            "Thakurgaon Sadar Upazila",
-            "Thanchi Upazila",
-            "Titas Upazila",
-            "Tongibari Upazila",
-            "Trishal Upazila",
-            "Tungipara Upazila",
-            "Ukhia Upazila",
-            "Ulipur Upazila",
-            "Ullahpara Upazila",
-            "Wazirpur Upazila",
-            "Zakiganj Upazila",
-            "Zanjira Upazila",
-            "Zianagor Upazila"});
-            this.prsThanacomboBox.Location = new System.Drawing.Point(135, 38);
+            "Abhaynagar",
+            "Adamdighi",
+            "Aditmari",
+            "Agailjhara",
+            "Ajmiriganj",
+            "Akhaura",
+            "Akkelpur",
+            "Alamdanga",
+            "Alfadanga",
+            "Ali",
+            "Amtali",
+            "Anwara",
+            "Araihazar",
+            "Ashuganj",
+            "Assasuni",
+            "Astagram",
+            "Ataikula",
+            "Atgharia",
+            "Atpara",
+            "Atrai",
+            "Atwari",
+            "Babuganj",
+            "Badalgachhi",
+            "Badarganj",
+            "Bagaichhari",
+            "Bagatipara",
+            "Bagerhat",
+            "Bagha",
+            "Bagherpara",
+            "Bagmara",
+            "Bahubal",
+            "Bajitpur",
+            "Bakerganj",
+            "Baksiganj",
+            "Balaganj",
+            "Baliadangi",
+            "Baliakandi",
+            "Bamna",
+            "Banaripara",
+            "Bancharampur",
+            "Bandar",
+            "Bandarban",
+            "Bandor",
+            "Baniyachong",
+            "Banshkhali",
+            "Baraigram",
+            "Barguna",
+            "Barhatta",
+            "Barisal",
+            "Barkal",
+            "Barlekha",
+            "Barura",
+            "Basail",
+            "Batiaghata",
+            "Bauphal",
+            "Beanibazar",
+            "Begumganj",
+            "Belabo",
+            "Belaichhari",
+            "Belkuchi",
+            "Bera",
+            "Betagi",
+            "Bhairab",
+            "Bhaluka",
+            "Bhandaria",
+            "Bhanga",
+            "Bhangura",
+            "Bhedarganj",
+            "Bheramara",
+            "Bhola",
+            "Bholahat",
+            "Bhuapur",
+            "Bhurungamari",
+            "Bijoynagar",
+            "Biral",
+            "Birampur",
+            "Birganj",
+            "Bishwamvarpur",
+            "Bishwanath",
+            "Boalia",
+            "Boalkhali",
+            "Boalmari",
+            "Bochaganj",
+            "Boda",
+            "Bogra",
+            "Brahmanbaria",
+            "Brahmanpara",
+            "Burhanuddin",
+            "Burichang",
+            "Chakaria",
+            "Chandanaish",
+            "Chandgaon",
+            "Chandina",
+            "Chandpur",
+            "Char",
+            "Char",
+            "Charbhadrasan",
+            "Charghat",
+            "Chatkhil",
+            "Chatmohar",
+            "Chauddagram",
+            "Chaugachha",
+            "Chauhali",
+            "Chhagalnaiya",
+            "Chhatak",
+            "Chilmari",
+            "Chirirbandar",
+            "Chitalmari",
+            "Chuadanga",
+            "Chunarughat",
+            "Comilla",
+            "Comilla",
+            "Companiganj",
+            "Companigonj",
+            "Cox\'s",
+            "Dacope",
+            "Daganbhuiyan",
+            "Damudya",
+            "Damurhuda",
+            "Dashmina",
+            "Daudkandi",
+            "Daulatkhan",
+            "Daulatpur",
+            "Daulatpur",
+            "Daulatpur",
+            "Debhata",
+            "Debidwar",
+            "Debiganj",
+            "Delduar",
+            "Derai",
+            "Dewanganj",
+            "Dhamoirhat",
+            "Dhamrai",
+            "Dhanbari",
+            "Dharampasha",
+            "Dhobaura",
+            "Dhunat",
+            "Dhupchanchia",
+            "Dighalia",
+            "Dighinala",
+            "Dimla",
+            "Dinajpur",
+            "Dohar",
+            "Domar",
+            "Double",
+            "Dowarabazar",
+            "Dumki",
+            "Dumuria",
+            "Durgapur",
+            "Durgapur",
+            "Fakirhat",
+            "Faridganj",
+            "Faridpur",
+            "Faridpur",
+            "Fatikchhari",
+            "Fenchuganj",
+            "Feni",
+            "Fulbaria",
+            "Fulgazi",
+            "Gabtali",
+            "Gaffargaon",
+            "Gaibandha",
+            "Galachipa",
+            "Gangachhara",
+            "Gangni",
+            "Gauripur",
+            "Gaurnadi",
+            "Gazaria",
+            "Gazipur",
+            "Ghatail",
+            "Ghior",
+            "Ghoraghat",
+            "Goalandaghat",
+            "Gobindaganj",
+            "Godagari",
+            "Golapganj",
+            "Gomastapur",
+            "Gopalganj",
+            "Gopalpur",
+            "Gosairhat",
+            "Gowainghat",
+            "Gurudaspur",
+            "Habiganj",
+            "Haimchar",
+            "Hakimpur",
+            "Haluaghat",
+            "Harinakunda",
+            "Harintana",
+            "Haripur",
+            "Harirampur",
+            "Hathazari",
+            "Hatibandha",
+            "Hatiya",
+            "Haziganj",
+            "Hizla",
+            "Homna",
+            "Hossainpur",
+            "Ishwardi",
+            "Ishwarganj",
+            "Islampur",
+            "Itna",
+            "Jagannathpur",
+            "Jaintiapur",
+            "Jaldhaka",
+            "Jamalganj",
+            "Jamalpur",
+            "Jessore",
+            "Jhalokati",
+            "Jhenaidah",
+            "Jhenaigati",
+            "Jhikargachha",
+            "Jibannagar",
+            "Joypurhat",
+            "Juraichhari",
+            "Juri",
+            "Kabirhat",
+            "Kachua",
+            "Kachua",
+            "Kahaloo",
+            "Kaharole",
+            "Kalai",
+            "Kalapara",
+            "Kalaroa",
+            "Kalia",
+            "Kaliakair",
+            "Kaliganj",
+            "Kaliganj",
+            "Kaliganj",
+            "Kaliganj",
+            "Kalihati",
+            "Kalkini",
+            "Kalmakanda",
+            "Kalukhali",
+            "Kamalganj",
+            "Kamalnagar",
+            "Kamarkhanda",
+            "Kanaighat",
+            "Kapasia",
+            "Kaptai",
+            "Karimganj",
+            "Kasba",
+            "Kashiani",
+            "Kathalia",
+            "Katiadi",
+            "Kaunia",
+            "Kawkhali",
+            "Kawkhali",
+            "Kazipur",
+            "Kendua",
+            "Keraniganj",
+            "Keshabpur",
+            "Khagrachhari",
+            "Khaliajuri",
+            "Khalishpur",
+            "Khan",
+            "Khansama",
+            "Khetlal",
+            "Khoksa",
+            "Kishoreganj",
+            "Kishoreganj",
+            "Kotalipara",
+            "Kotchandpur",
+            "Kotwali",
+            "Kotwali",
+            "Koyra",
+            "Kulaura",
+            "Kuliarchar",
+            "Kumarkhali",
+            "Kurigram",
+            "Kushtia",
+            "Kutubdia",
+            "Lakhai",
+            "Laksam",
+            "Lakshmichhari",
+            "Lakshmipur",
+            "Lalmohan",
+            "Lalmonirhat",
+            "Lalpur",
+            "Lama",
+            "Langadu",
+            "Lohagara",
+            "Lohagara",
+            "Lohajang",
+            "Madan",
+            "Madarganj",
+            "Madaripur",
+            "Madhabpur",
+            "Madhukhali",
+            "Madhupur",
+            "Magura",
+            "Mahalchhari",
+            "Maheshkhali",
+            "Maheshpur",
+            "Manda",
+            "Manikchhari",
+            "Manikgonj",
+            "Manirampur",
+            "Manpura",
+            "Mathbaria",
+            "Matihar",
+            "Matiranga",
+            "Matlab",
+            "Matlab",
+            "Meghna",
+            "Mehendiganj",
+            "Meherpur",
+            "Melandaha",
+            "Mirpur",
+            "Mirsharai",
+            "Mirzaganj",
+            "Mirzapur",
+            "Mithamain",
+            "Mithapukur",
+            "Mohadevpur",
+            "Mohammadpur",
+            "Mohanganj",
+            "Mohanpur",
+            "Mollahat",
+            "Mongla",
+            "Monohardi",
+            "Monohargonj",
+            "Morrelganj",
+            "Moulvibazar",
+            "Mujibnagar",
+            "Muksudpur",
+            "Muktagachha",
+            "Muladi",
+            "Munshiganj",
+            "Muradnagar",
+            "Mymensingh",
+            "Nabiganj",
+            "Nabinagar",
+            "Nachole",
+            "Nagarkanda",
+            "Nagarpur",
+            "Nageshwari",
+            "Naikhongchhari",
+            "Nakla",
+            "Nalchity",
+            "Naldanga",
+            "Nalitabari",
+            "Nandail",
+            "Nandigram",
+            "Nangalkot",
+            "Naniyachar",
+            "Naogaon",
+            "Naragati",
+            "Narail",
+            "Narayanganj",
+            "Naria",
+            "Narsingdi",
+            "Nasirnagar",
+            "Natore",
+            "Nawabganj",
+            "Nawabganj",
+            "Nawabganj",
+            "Nazirpur",
+            "Nesarabad",
+            "Netrokona",
+            "Niamatpur",
+            "Nikli",
+            "Nilphamari",
+            "Noakhali",
+            "Paba",
+            "Pabna",
+            "Pahartali",
+            "Paikgachha",
+            "Pakundia",
+            "Palash",
+            "Palashbari",
+            "Panchagarh",
+            "Panchbibi",
+            "Panchhari",
+            "Panchlaish",
+            "Pangsha",
+            "Parbatipur",
+            "Parshuram",
+            "Patgram",
+            "Patharghata",
+            "Patiya",
+            "Patnitala",
+            "Patuakhali",
+            "Pekua",
+            "Phulbari",
+            "Phulbari",
+            "Phulchhari",
+            "Phulpur",
+            "Phultala",
+            "Pirgachha",
+            "Pirganj",
+            "Pirganj",
+            "Pirojpur",
+            "Porsha",
+            "Purbadhala",
+            "Puthia",
+            "Raiganj",
+            "Raipur",
+            "Raipura",
+            "Rajapur",
+            "Rajarhat",
+            "Rajasthali",
+            "Rajbari",
+            "Rajnagar",
+            "Rajoir",
+            "Rajpara",
+            "Ramganj",
+            "Ramgarh",
+            "Ramgati",
+            "Rampal",
+            "Ramu",
+            "Rangabali",
+            "Rangamati",
+            "Rangpur",
+            "Rangunia",
+            "Raninagar",
+            "Ranisankail",
+            "Raomari",
+            "Raozan",
+            "Rowangchhari",
+            "Ruma",
+            "Rupganj",
+            "Rupsha",
+            "Sadarpur",
+            "Sadullapur",
+            "Saidpur",
+            "Sakhipur",
+            "Saltha",
+            "Sandwip",
+            "Santhia",
+            "Sapahar",
+            "Sarail",
+            "Sarankhola",
+            "Sariakandi",
+            "Sarishabari",
+            "Satkania",
+            "Satkhira",
+            "Saturia",
+            "Savar",
+            "Senbagh",
+            "Shah",
+            "Shahjadpur",
+            "Shahrasti",
+            "Shailkupa",
+            "Shajahanpur",
+            "Shakhipur",
+            "Shalikha",
+            "Shariatpur",
+            "Sharsha",
+            "Shekhpara",
+            "Sherpur",
+            "Sherpur",
+            "Shibchar",
+            "Shibganj",
+            "Shibganj",
+            "Shibpur",
+            "Shivalaya",
+            "Shyamnagar",
+            "Singair",
+            "Singra",
+            "Sirajdikhan",
+            "Sirajganj",
+            "Sitakunda",
+            "Sonadanga",
+            "Sonagazi",
+            "Sonaimuri",
+            "Sonargaon",
+            "Sonatola",
+            "South",
+            "South",
+            "Sreebardi",
+            "Sreemangal",
+            "Sreenagar",
+            "Sreepur",
+            "Sreepur",
+            "Subarnachar",
+            "Sughatta",
+            "Sujanagar",
+            "Sullah",
+            "Sunamganj",
+            "Sundarganj",
+            "Sylhet",
+            "Tahirpur",
+            "Tala",
+            "Taltoli",
+            "Tangail",
+            "Tanore",
+            "Tara",
+            "Taraganj",
+            "Tarail",
+            "Tarash",
+            "Tazumuddin",
+            "Teknaf",
+            "Terokhada",
+            "Tetulia",
+            "Thakurgaon",
+            "Thanchi",
+            "Titas",
+            "Tongibari",
+            "Trishal",
+            "Tungipara",
+            "Ukhia",
+            "Ulipur",
+            "Ullahpara",
+            "Wazirpur",
+            "Zakiganj",
+            "Zanjira",
+            "Zianagor"});
+            this.prsThanacomboBox.Location = new System.Drawing.Point(75, 40);
             this.prsThanacomboBox.Name = "prsThanacomboBox";
-            this.prsThanacomboBox.Size = new System.Drawing.Size(277, 26);
+            this.prsThanacomboBox.Size = new System.Drawing.Size(320, 26);
             this.prsThanacomboBox.TabIndex = 1;
             // 
             // prsdevisioncombobox
@@ -1980,9 +2004,18 @@
             this.tableLayoutPanel1.SetColumnSpan(this.prsdevisioncombobox, 2);
             this.prsdevisioncombobox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.prsdevisioncombobox.FormattingEnabled = true;
-            this.prsdevisioncombobox.Location = new System.Drawing.Point(550, 3);
+            this.prsdevisioncombobox.Items.AddRange(new object[] {
+            "Barisal ",
+            "Chittagong",
+            "Dhaka ",
+            "Khulna",
+            "Mymensingh ",
+            "Rajshahi ",
+            "Rangpur ",
+            "Sylhet"});
+            this.prsdevisioncombobox.Location = new System.Drawing.Point(490, 3);
             this.prsdevisioncombobox.Name = "prsdevisioncombobox";
-            this.prsdevisioncombobox.Size = new System.Drawing.Size(277, 26);
+            this.prsdevisioncombobox.Size = new System.Drawing.Size(347, 26);
             this.prsdevisioncombobox.TabIndex = 3;
             // 
             // prspostofficecomboBox
@@ -1990,9 +2023,9 @@
             this.tableLayoutPanel1.SetColumnSpan(this.prspostofficecomboBox, 2);
             this.prspostofficecomboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.prspostofficecomboBox.FormattingEnabled = true;
-            this.prspostofficecomboBox.Location = new System.Drawing.Point(550, 38);
+            this.prspostofficecomboBox.Location = new System.Drawing.Point(490, 40);
             this.prspostofficecomboBox.Name = "prspostofficecomboBox";
-            this.prspostofficecomboBox.Size = new System.Drawing.Size(277, 26);
+            this.prspostofficecomboBox.Size = new System.Drawing.Size(347, 26);
             this.prspostofficecomboBox.TabIndex = 4;
             // 
             // prsdistrictcomboBox
@@ -2000,59 +2033,1137 @@
             this.tableLayoutPanel1.SetColumnSpan(this.prsdistrictcomboBox, 2);
             this.prsdistrictcomboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.prsdistrictcomboBox.FormattingEnabled = true;
-            this.prsdistrictcomboBox.Location = new System.Drawing.Point(965, 3);
+            this.prsdistrictcomboBox.Items.AddRange(new object[] {
+            "Barguna",
+            "Barisal",
+            "Bhola",
+            "Jhalokati",
+            "Patuakhali",
+            "Pirojpur",
+            "Bandarban",
+            "Brahmanbaria",
+            "Chandpur",
+            "Chittagong",
+            "Comilla",
+            "Cox\'s",
+            "Feni",
+            "Khagrachhari",
+            "Lakshmipur",
+            "Noakhali",
+            "Rangamati",
+            "Dhaka",
+            "Faridpur",
+            "Gazipur",
+            "Gopalganj",
+            "Jamalpur",
+            "Kishoreganj",
+            "Madaripur",
+            "Manikganj",
+            "Munshiganj",
+            "Mymensingh",
+            "Narayanganj",
+            "Narsingdi",
+            "Netrakona",
+            "Rajbari",
+            "Shariatpur",
+            "Sherpur",
+            "Tangail",
+            "Bagerhat",
+            "Chuadanga",
+            "Jessore",
+            "Jhenaidah",
+            "Khulna",
+            "Kushtia",
+            "Magura",
+            "Meherpur",
+            "Narail",
+            "Satkhira",
+            "Bogra",
+            "Joypurhat",
+            "Naogaon",
+            "Natore",
+            "Nawabganj",
+            "Pabna",
+            "Rajshahi",
+            "Sirajganj",
+            "Dinajpur",
+            "Gaibandha",
+            "Kurigram",
+            "Lalmonirhat",
+            "Nilphamari",
+            "Panchagarh",
+            "Rangpur",
+            "Thakurgaon",
+            "Habiganj",
+            "Moulvibazar",
+            "Sunamganj",
+            "Sylhet"});
+            this.prsdistrictcomboBox.Location = new System.Drawing.Point(917, 3);
             this.prsdistrictcomboBox.Name = "prsdistrictcomboBox";
-            this.prsdistrictcomboBox.Size = new System.Drawing.Size(280, 26);
+            this.prsdistrictcomboBox.Size = new System.Drawing.Size(325, 26);
             this.prsdistrictcomboBox.TabIndex = 6;
             // 
             // prsGBstreettextBox
             // 
             this.prsGBstreettextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.prsGBstreettextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.prsGBstreettextBox.Location = new System.Drawing.Point(135, 73);
+            this.prsGBstreettextBox.Location = new System.Drawing.Point(75, 73);
             this.prsGBstreettextBox.Name = "prsGBstreettextBox";
-            this.prsGBstreettextBox.Size = new System.Drawing.Size(145, 24);
+            this.prsGBstreettextBox.Size = new System.Drawing.Size(191, 24);
             this.prsGBstreettextBox.TabIndex = 2;
             // 
             // prsgbaddresstextBox
             // 
             this.prsgbaddresstextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.prsgbaddresstextBox.Location = new System.Drawing.Point(550, 73);
+            this.prsgbaddresstextBox.Location = new System.Drawing.Point(490, 73);
             this.prsgbaddresstextBox.Name = "prsgbaddresstextBox";
-            this.prsgbaddresstextBox.Size = new System.Drawing.Size(145, 24);
+            this.prsgbaddresstextBox.Size = new System.Drawing.Size(207, 24);
             this.prsgbaddresstextBox.TabIndex = 5;
             // 
             // prscellnotextbox
             // 
             this.prscellnotextbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.prscellnotextbox.Location = new System.Drawing.Point(965, 73);
+            this.prscellnotextbox.Location = new System.Drawing.Point(917, 73);
             this.prscellnotextbox.Name = "prscellnotextbox";
-            this.prscellnotextbox.Size = new System.Drawing.Size(145, 24);
+            this.prscellnotextbox.Size = new System.Drawing.Size(156, 24);
             this.prscellnotextbox.TabIndex = 7;
             // 
             // prsgbstreetviewbox
             // 
             this.prsgbstreetviewbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.prsgbstreetviewbox.Location = new System.Drawing.Point(286, 73);
+            this.prsgbstreetviewbox.Location = new System.Drawing.Point(272, 73);
             this.prsgbstreetviewbox.Name = "prsgbstreetviewbox";
-            this.prsgbstreetviewbox.Size = new System.Drawing.Size(126, 24);
+            this.prsgbstreetviewbox.Size = new System.Drawing.Size(123, 24);
             this.prsgbstreetviewbox.TabIndex = 21;
             // 
             // prsgbaddressviewbox
             // 
             this.prsgbaddressviewbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.prsgbaddressviewbox.Location = new System.Drawing.Point(701, 73);
+            this.prsgbaddressviewbox.Location = new System.Drawing.Point(703, 73);
             this.prsgbaddressviewbox.Name = "prsgbaddressviewbox";
-            this.prsgbaddressviewbox.Size = new System.Drawing.Size(126, 24);
+            this.prsgbaddressviewbox.Size = new System.Drawing.Size(128, 24);
             this.prsgbaddressviewbox.TabIndex = 22;
             // 
             // prscellnoviewbox
             // 
             this.prscellnoviewbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.prscellnoviewbox.Location = new System.Drawing.Point(1116, 73);
+            this.prscellnoviewbox.Location = new System.Drawing.Point(1079, 73);
             this.prscellnoviewbox.Name = "prscellnoviewbox";
-            this.prscellnoviewbox.Size = new System.Drawing.Size(129, 24);
+            this.prscellnoviewbox.Size = new System.Drawing.Size(165, 24);
             this.prscellnoviewbox.TabIndex = 23;
+            // 
+            // permanentaddressgroupBox
+            // 
+            this.permanentaddressgroupBox.Controls.Add(this.tableLayoutPanel2);
+            this.permanentaddressgroupBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.permanentaddressgroupBox.ForeColor = System.Drawing.Color.Black;
+            this.permanentaddressgroupBox.Location = new System.Drawing.Point(11, 895);
+            this.permanentaddressgroupBox.Name = "permanentaddressgroupBox";
+            this.permanentaddressgroupBox.Size = new System.Drawing.Size(1254, 143);
+            this.permanentaddressgroupBox.TabIndex = 3;
+            this.permanentaddressgroupBox.TabStop = false;
+            this.permanentaddressgroupBox.Text = "Permanent Address";
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 9;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.769231F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.78526F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.33654F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.13141F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.06731F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.21795F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.929487F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.98077F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 13.78205F));
+            this.tableLayoutPanel2.Controls.Add(this.label1, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.label2, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.label3, 3, 0);
+            this.tableLayoutPanel2.Controls.Add(this.label4, 3, 1);
+            this.tableLayoutPanel2.Controls.Add(this.label5, 3, 2);
+            this.tableLayoutPanel2.Controls.Add(this.label6, 6, 2);
+            this.tableLayoutPanel2.Controls.Add(this.label7, 6, 0);
+            this.tableLayoutPanel2.Controls.Add(this.comboBox1, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.comboBox3, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.comboBox4, 4, 0);
+            this.tableLayoutPanel2.Controls.Add(this.comboBox7, 4, 1);
+            this.tableLayoutPanel2.Controls.Add(this.comboBox8, 7, 0);
+            this.tableLayoutPanel2.Controls.Add(this.textBox1, 1, 2);
+            this.tableLayoutPanel2.Controls.Add(this.textBox2, 4, 2);
+            this.tableLayoutPanel2.Controls.Add(this.textBox3, 7, 2);
+            this.tableLayoutPanel2.Controls.Add(this.label8, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.textBox4, 2, 2);
+            this.tableLayoutPanel2.Controls.Add(this.textBox5, 5, 2);
+            this.tableLayoutPanel2.Controls.Add(this.textBox6, 8, 2);
+            this.tableLayoutPanel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 30);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 4;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1248, 109);
+            this.tableLayoutPanel2.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(3, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Thana";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(3, 70);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(64, 16);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "GB Street";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(401, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(60, 16);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Devision";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(401, 37);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(71, 16);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Post Office";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(401, 70);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(80, 16);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "GB Address";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(843, 70);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(51, 16);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Cell No";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(843, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(47, 16);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "District";
+            // 
+            // comboBox1
+            // 
+            this.tableLayoutPanel2.SetColumnSpan(this.comboBox1, 2);
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Afghanistan",
+            "Albania",
+            "Algeria",
+            "Andorra",
+            "Angola",
+            "Antigua and Barbuda",
+            "Argentina",
+            "Armenia",
+            "Australia",
+            "Austria",
+            "Azerbaijan",
+            "Bahamas",
+            "Bahrain",
+            "Bangladesh",
+            "Barbados",
+            "Belarus",
+            "Belgium",
+            "Belize",
+            "Benin",
+            "Bhutan",
+            "Bolivia",
+            "Bosnia and Herzegovina",
+            "Botswana",
+            "Brazil",
+            "Brunei",
+            "Bulgaria",
+            "Burkina Faso",
+            "Burundi",
+            "Côte d\'Ivoire",
+            "Cabo Verde",
+            "Cambodia",
+            "Cameroon",
+            "Canada",
+            "Central African Republic",
+            "Chad",
+            "Chile",
+            "China",
+            "Colombia",
+            "Comoros",
+            "Congo (Congo-Brazzaville)",
+            "Costa Rica",
+            "Croatia",
+            "Cuba",
+            "Cyprus",
+            "Czechia (Czech Republic)",
+            "Democratic Republic of the Congo",
+            "Denmark",
+            "Djibouti",
+            "Dominica",
+            "Dominican Republic",
+            "Ecuador",
+            "Egypt",
+            "El Salvador",
+            "Equatorial Guinea",
+            "Eritrea",
+            "Estonia",
+            "Eswatini (fmr. \"Swaziland\")",
+            "Ethiopia",
+            "Fiji",
+            "Finland",
+            "France",
+            "Gabon",
+            "Gambia",
+            "Georgia",
+            "Germany",
+            "Ghana",
+            "Greece",
+            "Grenada",
+            "Guatemala",
+            "Guinea",
+            "Guinea-Bissau",
+            "Guyana",
+            "Haiti",
+            "Holy See",
+            "Honduras",
+            "Hungary",
+            "Iceland",
+            "India",
+            "Indonesia",
+            "Iran",
+            "Iraq",
+            "Ireland",
+            "Israel",
+            "Italy",
+            "Jamaica",
+            "Japan",
+            "Jordan",
+            "Kazakhstan",
+            "Kenya",
+            "Kiribati",
+            "Kuwait",
+            "Kyrgyzstan",
+            "Laos",
+            "Latvia",
+            "Lebanon",
+            "Lesotho",
+            "Liberia",
+            "Libya",
+            "Liechtenstein",
+            "Lithuania",
+            "Luxembourg",
+            "Madagascar",
+            "Malawi",
+            "Malaysia",
+            "Maldives",
+            "Mali",
+            "Malta",
+            "Marshall Islands",
+            "Mauritania",
+            "Mauritius",
+            "Mexico",
+            "Micronesia",
+            "Moldova",
+            "Monaco",
+            "Mongolia",
+            "Montenegro",
+            "Morocco",
+            "Mozambique",
+            "Myanmar (formerly Burma)",
+            "Namibia",
+            "Nauru",
+            "Nepal",
+            "Netherlands",
+            "New Zealand",
+            "Nicaragua",
+            "Niger",
+            "Nigeria",
+            "North Korea",
+            "North Macedonia",
+            "Norway",
+            "Oman",
+            "Pakistan",
+            "Palau",
+            "Palestine State",
+            "Panama",
+            "Papua New Guinea",
+            "Paraguay",
+            "Peru",
+            "Philippines",
+            "Poland",
+            "Portugal",
+            "Qatar",
+            "Romania",
+            "Russia",
+            "Rwanda",
+            "Saint Kitts and Nevis",
+            "Saint Lucia",
+            "Saint Vincent and the Grenadines",
+            "Samoa",
+            "San Marino",
+            "Sao Tome and Principe",
+            "Saudi Arabia",
+            "Senegal",
+            "Serbia",
+            "Seychelles",
+            "Sierra Leone",
+            "Singapore",
+            "Slovakia",
+            "Slovenia",
+            "Solomon Islands",
+            "Somalia",
+            "South Africa",
+            "South Korea",
+            "South Sudan",
+            "Spain",
+            "Sri Lanka",
+            "Sudan",
+            "Suriname",
+            "Sweden",
+            "Switzerland",
+            "Syria",
+            "Tajikistan",
+            "Tanzania",
+            "Thailand",
+            "Timor-Leste",
+            "Togo",
+            "Tonga",
+            "Trinidad and Tobago",
+            "Tunisia",
+            "Turkey",
+            "Turkmenistan",
+            "Tuvalu",
+            "Uganda",
+            "Ukraine",
+            "United Arab Emirates",
+            "United Kingdom",
+            "United States of America",
+            "Uruguay",
+            "Uzbekistan",
+            "Vanuatu",
+            "Venezuela",
+            "Vietnam",
+            "Yemen",
+            "Zambia",
+            "Zimbabwe"});
+            this.comboBox1.Location = new System.Drawing.Point(75, 3);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(320, 26);
+            this.comboBox1.TabIndex = 0;
+            // 
+            // comboBox3
+            // 
+            this.tableLayoutPanel2.SetColumnSpan(this.comboBox3, 2);
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Abhaynagar",
+            "Adamdighi",
+            "Aditmari",
+            "Agailjhara",
+            "Ajmiriganj",
+            "Akhaura",
+            "Akkelpur",
+            "Alamdanga",
+            "Alfadanga",
+            "Ali",
+            "Amtali",
+            "Anwara",
+            "Araihazar",
+            "Ashuganj",
+            "Assasuni",
+            "Astagram",
+            "Ataikula",
+            "Atgharia",
+            "Atpara",
+            "Atrai",
+            "Atwari",
+            "Babuganj",
+            "Badalgachhi",
+            "Badarganj",
+            "Bagaichhari",
+            "Bagatipara",
+            "Bagerhat",
+            "Bagha",
+            "Bagherpara",
+            "Bagmara",
+            "Bahubal",
+            "Bajitpur",
+            "Bakerganj",
+            "Baksiganj",
+            "Balaganj",
+            "Baliadangi",
+            "Baliakandi",
+            "Bamna",
+            "Banaripara",
+            "Bancharampur",
+            "Bandar",
+            "Bandarban",
+            "Bandor",
+            "Baniyachong",
+            "Banshkhali",
+            "Baraigram",
+            "Barguna",
+            "Barhatta",
+            "Barisal",
+            "Barkal",
+            "Barlekha",
+            "Barura",
+            "Basail",
+            "Batiaghata",
+            "Bauphal",
+            "Beanibazar",
+            "Begumganj",
+            "Belabo",
+            "Belaichhari",
+            "Belkuchi",
+            "Bera",
+            "Betagi",
+            "Bhairab",
+            "Bhaluka",
+            "Bhandaria",
+            "Bhanga",
+            "Bhangura",
+            "Bhedarganj",
+            "Bheramara",
+            "Bhola",
+            "Bholahat",
+            "Bhuapur",
+            "Bhurungamari",
+            "Bijoynagar",
+            "Biral",
+            "Birampur",
+            "Birganj",
+            "Bishwamvarpur",
+            "Bishwanath",
+            "Boalia",
+            "Boalkhali",
+            "Boalmari",
+            "Bochaganj",
+            "Boda",
+            "Bogra",
+            "Brahmanbaria",
+            "Brahmanpara",
+            "Burhanuddin",
+            "Burichang",
+            "Chakaria",
+            "Chandanaish",
+            "Chandgaon",
+            "Chandina",
+            "Chandpur",
+            "Char",
+            "Char",
+            "Charbhadrasan",
+            "Charghat",
+            "Chatkhil",
+            "Chatmohar",
+            "Chauddagram",
+            "Chaugachha",
+            "Chauhali",
+            "Chhagalnaiya",
+            "Chhatak",
+            "Chilmari",
+            "Chirirbandar",
+            "Chitalmari",
+            "Chuadanga",
+            "Chunarughat",
+            "Comilla",
+            "Comilla",
+            "Companiganj",
+            "Companigonj",
+            "Cox\'s",
+            "Dacope",
+            "Daganbhuiyan",
+            "Damudya",
+            "Damurhuda",
+            "Dashmina",
+            "Daudkandi",
+            "Daulatkhan",
+            "Daulatpur",
+            "Daulatpur",
+            "Daulatpur",
+            "Debhata",
+            "Debidwar",
+            "Debiganj",
+            "Delduar",
+            "Derai",
+            "Dewanganj",
+            "Dhamoirhat",
+            "Dhamrai",
+            "Dhanbari",
+            "Dharampasha",
+            "Dhobaura",
+            "Dhunat",
+            "Dhupchanchia",
+            "Dighalia",
+            "Dighinala",
+            "Dimla",
+            "Dinajpur",
+            "Dohar",
+            "Domar",
+            "Double",
+            "Dowarabazar",
+            "Dumki",
+            "Dumuria",
+            "Durgapur",
+            "Durgapur",
+            "Fakirhat",
+            "Faridganj",
+            "Faridpur",
+            "Faridpur",
+            "Fatikchhari",
+            "Fenchuganj",
+            "Feni",
+            "Fulbaria",
+            "Fulgazi",
+            "Gabtali",
+            "Gaffargaon",
+            "Gaibandha",
+            "Galachipa",
+            "Gangachhara",
+            "Gangni",
+            "Gauripur",
+            "Gaurnadi",
+            "Gazaria",
+            "Gazipur",
+            "Ghatail",
+            "Ghior",
+            "Ghoraghat",
+            "Goalandaghat",
+            "Gobindaganj",
+            "Godagari",
+            "Golapganj",
+            "Gomastapur",
+            "Gopalganj",
+            "Gopalpur",
+            "Gosairhat",
+            "Gowainghat",
+            "Gurudaspur",
+            "Habiganj",
+            "Haimchar",
+            "Hakimpur",
+            "Haluaghat",
+            "Harinakunda",
+            "Harintana",
+            "Haripur",
+            "Harirampur",
+            "Hathazari",
+            "Hatibandha",
+            "Hatiya",
+            "Haziganj",
+            "Hizla",
+            "Homna",
+            "Hossainpur",
+            "Ishwardi",
+            "Ishwarganj",
+            "Islampur",
+            "Itna",
+            "Jagannathpur",
+            "Jaintiapur",
+            "Jaldhaka",
+            "Jamalganj",
+            "Jamalpur",
+            "Jessore",
+            "Jhalokati",
+            "Jhenaidah",
+            "Jhenaigati",
+            "Jhikargachha",
+            "Jibannagar",
+            "Joypurhat",
+            "Juraichhari",
+            "Juri",
+            "Kabirhat",
+            "Kachua",
+            "Kachua",
+            "Kahaloo",
+            "Kaharole",
+            "Kalai",
+            "Kalapara",
+            "Kalaroa",
+            "Kalia",
+            "Kaliakair",
+            "Kaliganj",
+            "Kaliganj",
+            "Kaliganj",
+            "Kaliganj",
+            "Kalihati",
+            "Kalkini",
+            "Kalmakanda",
+            "Kalukhali",
+            "Kamalganj",
+            "Kamalnagar",
+            "Kamarkhanda",
+            "Kanaighat",
+            "Kapasia",
+            "Kaptai",
+            "Karimganj",
+            "Kasba",
+            "Kashiani",
+            "Kathalia",
+            "Katiadi",
+            "Kaunia",
+            "Kawkhali",
+            "Kawkhali",
+            "Kazipur",
+            "Kendua",
+            "Keraniganj",
+            "Keshabpur",
+            "Khagrachhari",
+            "Khaliajuri",
+            "Khalishpur",
+            "Khan",
+            "Khansama",
+            "Khetlal",
+            "Khoksa",
+            "Kishoreganj",
+            "Kishoreganj",
+            "Kotalipara",
+            "Kotchandpur",
+            "Kotwali",
+            "Kotwali",
+            "Koyra",
+            "Kulaura",
+            "Kuliarchar",
+            "Kumarkhali",
+            "Kurigram",
+            "Kushtia",
+            "Kutubdia",
+            "Lakhai",
+            "Laksam",
+            "Lakshmichhari",
+            "Lakshmipur",
+            "Lalmohan",
+            "Lalmonirhat",
+            "Lalpur",
+            "Lama",
+            "Langadu",
+            "Lohagara",
+            "Lohagara",
+            "Lohajang",
+            "Madan",
+            "Madarganj",
+            "Madaripur",
+            "Madhabpur",
+            "Madhukhali",
+            "Madhupur",
+            "Magura",
+            "Mahalchhari",
+            "Maheshkhali",
+            "Maheshpur",
+            "Manda",
+            "Manikchhari",
+            "Manikgonj",
+            "Manirampur",
+            "Manpura",
+            "Mathbaria",
+            "Matihar",
+            "Matiranga",
+            "Matlab",
+            "Matlab",
+            "Meghna",
+            "Mehendiganj",
+            "Meherpur",
+            "Melandaha",
+            "Mirpur",
+            "Mirsharai",
+            "Mirzaganj",
+            "Mirzapur",
+            "Mithamain",
+            "Mithapukur",
+            "Mohadevpur",
+            "Mohammadpur",
+            "Mohanganj",
+            "Mohanpur",
+            "Mollahat",
+            "Mongla",
+            "Monohardi",
+            "Monohargonj",
+            "Morrelganj",
+            "Moulvibazar",
+            "Mujibnagar",
+            "Muksudpur",
+            "Muktagachha",
+            "Muladi",
+            "Munshiganj",
+            "Muradnagar",
+            "Mymensingh",
+            "Nabiganj",
+            "Nabinagar",
+            "Nachole",
+            "Nagarkanda",
+            "Nagarpur",
+            "Nageshwari",
+            "Naikhongchhari",
+            "Nakla",
+            "Nalchity",
+            "Naldanga",
+            "Nalitabari",
+            "Nandail",
+            "Nandigram",
+            "Nangalkot",
+            "Naniyachar",
+            "Naogaon",
+            "Naragati",
+            "Narail",
+            "Narayanganj",
+            "Naria",
+            "Narsingdi",
+            "Nasirnagar",
+            "Natore",
+            "Nawabganj",
+            "Nawabganj",
+            "Nawabganj",
+            "Nazirpur",
+            "Nesarabad",
+            "Netrokona",
+            "Niamatpur",
+            "Nikli",
+            "Nilphamari",
+            "Noakhali",
+            "Paba",
+            "Pabna",
+            "Pahartali",
+            "Paikgachha",
+            "Pakundia",
+            "Palash",
+            "Palashbari",
+            "Panchagarh",
+            "Panchbibi",
+            "Panchhari",
+            "Panchlaish",
+            "Pangsha",
+            "Parbatipur",
+            "Parshuram",
+            "Patgram",
+            "Patharghata",
+            "Patiya",
+            "Patnitala",
+            "Patuakhali",
+            "Pekua",
+            "Phulbari",
+            "Phulbari",
+            "Phulchhari",
+            "Phulpur",
+            "Phultala",
+            "Pirgachha",
+            "Pirganj",
+            "Pirganj",
+            "Pirojpur",
+            "Porsha",
+            "Purbadhala",
+            "Puthia",
+            "Raiganj",
+            "Raipur",
+            "Raipura",
+            "Rajapur",
+            "Rajarhat",
+            "Rajasthali",
+            "Rajbari",
+            "Rajnagar",
+            "Rajoir",
+            "Rajpara",
+            "Ramganj",
+            "Ramgarh",
+            "Ramgati",
+            "Rampal",
+            "Ramu",
+            "Rangabali",
+            "Rangamati",
+            "Rangpur",
+            "Rangunia",
+            "Raninagar",
+            "Ranisankail",
+            "Raomari",
+            "Raozan",
+            "Rowangchhari",
+            "Ruma",
+            "Rupganj",
+            "Rupsha",
+            "Sadarpur",
+            "Sadullapur",
+            "Saidpur",
+            "Sakhipur",
+            "Saltha",
+            "Sandwip",
+            "Santhia",
+            "Sapahar",
+            "Sarail",
+            "Sarankhola",
+            "Sariakandi",
+            "Sarishabari",
+            "Satkania",
+            "Satkhira",
+            "Saturia",
+            "Savar",
+            "Senbagh",
+            "Shah",
+            "Shahjadpur",
+            "Shahrasti",
+            "Shailkupa",
+            "Shajahanpur",
+            "Shakhipur",
+            "Shalikha",
+            "Shariatpur",
+            "Sharsha",
+            "Shekhpara",
+            "Sherpur",
+            "Sherpur",
+            "Shibchar",
+            "Shibganj",
+            "Shibganj",
+            "Shibpur",
+            "Shivalaya",
+            "Shyamnagar",
+            "Singair",
+            "Singra",
+            "Sirajdikhan",
+            "Sirajganj",
+            "Sitakunda",
+            "Sonadanga",
+            "Sonagazi",
+            "Sonaimuri",
+            "Sonargaon",
+            "Sonatola",
+            "South",
+            "South",
+            "Sreebardi",
+            "Sreemangal",
+            "Sreenagar",
+            "Sreepur",
+            "Sreepur",
+            "Subarnachar",
+            "Sughatta",
+            "Sujanagar",
+            "Sullah",
+            "Sunamganj",
+            "Sundarganj",
+            "Sylhet",
+            "Tahirpur",
+            "Tala",
+            "Taltoli",
+            "Tangail",
+            "Tanore",
+            "Tara",
+            "Taraganj",
+            "Tarail",
+            "Tarash",
+            "Tazumuddin",
+            "Teknaf",
+            "Terokhada",
+            "Tetulia",
+            "Thakurgaon",
+            "Thanchi",
+            "Titas",
+            "Tongibari",
+            "Trishal",
+            "Tungipara",
+            "Ukhia",
+            "Ulipur",
+            "Ullahpara",
+            "Wazirpur",
+            "Zakiganj",
+            "Zanjira",
+            "Zianagor"});
+            this.comboBox3.Location = new System.Drawing.Point(75, 40);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(320, 26);
+            this.comboBox3.TabIndex = 1;
+            // 
+            // comboBox4
+            // 
+            this.tableLayoutPanel2.SetColumnSpan(this.comboBox4, 2);
+            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "Barisal ",
+            "Chittagong",
+            "Dhaka ",
+            "Khulna",
+            "Mymensingh ",
+            "Rajshahi ",
+            "Rangpur ",
+            "Sylhet"});
+            this.comboBox4.Location = new System.Drawing.Point(490, 3);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(347, 26);
+            this.comboBox4.TabIndex = 3;
+            // 
+            // comboBox7
+            // 
+            this.tableLayoutPanel2.SetColumnSpan(this.comboBox7, 2);
+            this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Location = new System.Drawing.Point(490, 40);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(347, 26);
+            this.comboBox7.TabIndex = 4;
+            // 
+            // comboBox8
+            // 
+            this.tableLayoutPanel2.SetColumnSpan(this.comboBox8, 2);
+            this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "Barguna",
+            "Barisal",
+            "Bhola",
+            "Jhalokati",
+            "Patuakhali",
+            "Pirojpur",
+            "Bandarban",
+            "Brahmanbaria",
+            "Chandpur",
+            "Chittagong",
+            "Comilla",
+            "Cox\'s",
+            "Feni",
+            "Khagrachhari",
+            "Lakshmipur",
+            "Noakhali",
+            "Rangamati",
+            "Dhaka",
+            "Faridpur",
+            "Gazipur",
+            "Gopalganj",
+            "Jamalpur",
+            "Kishoreganj",
+            "Madaripur",
+            "Manikganj",
+            "Munshiganj",
+            "Mymensingh",
+            "Narayanganj",
+            "Narsingdi",
+            "Netrakona",
+            "Rajbari",
+            "Shariatpur",
+            "Sherpur",
+            "Tangail",
+            "Bagerhat",
+            "Chuadanga",
+            "Jessore",
+            "Jhenaidah",
+            "Khulna",
+            "Kushtia",
+            "Magura",
+            "Meherpur",
+            "Narail",
+            "Satkhira",
+            "Bogra",
+            "Joypurhat",
+            "Naogaon",
+            "Natore",
+            "Nawabganj",
+            "Pabna",
+            "Rajshahi",
+            "Sirajganj",
+            "Dinajpur",
+            "Gaibandha",
+            "Kurigram",
+            "Lalmonirhat",
+            "Nilphamari",
+            "Panchagarh",
+            "Rangpur",
+            "Thakurgaon",
+            "Habiganj",
+            "Moulvibazar",
+            "Sunamganj",
+            "Sylhet"});
+            this.comboBox8.Location = new System.Drawing.Point(917, 3);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(325, 26);
+            this.comboBox8.TabIndex = 6;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.textBox1.Location = new System.Drawing.Point(75, 73);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(191, 24);
+            this.textBox1.TabIndex = 2;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.Location = new System.Drawing.Point(490, 73);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(207, 24);
+            this.textBox2.TabIndex = 5;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox3.Location = new System.Drawing.Point(917, 73);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(156, 24);
+            this.textBox3.TabIndex = 7;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(3, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(52, 16);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Country";
+            // 
+            // textBox4
+            // 
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox4.Location = new System.Drawing.Point(272, 73);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(123, 24);
+            this.textBox4.TabIndex = 21;
+            // 
+            // textBox5
+            // 
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox5.Location = new System.Drawing.Point(703, 73);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(128, 24);
+            this.textBox5.TabIndex = 22;
+            // 
+            // textBox6
+            // 
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox6.Location = new System.Drawing.Point(1079, 73);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(165, 24);
+            this.textBox6.TabIndex = 23;
             // 
             // EntryForm
             // 
@@ -2080,6 +3191,9 @@
             this.presentAddressgroupbox.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            this.permanentaddressgroupBox.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2187,6 +3301,27 @@
         private System.Windows.Forms.TextBox prsgbstreetviewbox;
         private System.Windows.Forms.TextBox prsgbaddressviewbox;
         private System.Windows.Forms.TextBox prscellnoviewbox;
+        private System.Windows.Forms.GroupBox permanentaddressgroupBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
     }
 }
 
