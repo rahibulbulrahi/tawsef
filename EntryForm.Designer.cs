@@ -131,25 +131,25 @@
             this.prscellnoviewbox = new System.Windows.Forms.TextBox();
             this.permanentaddressgroupBox = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.prmntthanalabel = new System.Windows.Forms.Label();
+            this.prmntgbstreet = new System.Windows.Forms.Label();
+            this.prmntDevisionlabel = new System.Windows.Forms.Label();
+            this.prmntpostofficelabel = new System.Windows.Forms.Label();
+            this.prmntgbaddress = new System.Windows.Forms.Label();
+            this.prsmntellnolabel = new System.Windows.Forms.Label();
+            this.prmntdistrictlabel = new System.Windows.Forms.Label();
+            this.prmntCountrycomboBox = new System.Windows.Forms.ComboBox();
+            this.prmntThanacomboBox = new System.Windows.Forms.ComboBox();
+            this.prmntdevisioncombobox = new System.Windows.Forms.ComboBox();
+            this.prmntpostofficecomboBox = new System.Windows.Forms.ComboBox();
+            this.prmntdistrictcomboBox = new System.Windows.Forms.ComboBox();
+            this.prmntGBstreettextBox = new System.Windows.Forms.TextBox();
+            this.prmntgbaddresstextBox = new System.Windows.Forms.TextBox();
+            this.prmntscellnotextbox = new System.Windows.Forms.TextBox();
+            this.prmntcountrylabel = new System.Windows.Forms.Label();
+            this.prmntgbstreetviewbox = new System.Windows.Forms.TextBox();
+            this.prmntgbaddressviewbox = new System.Windows.Forms.TextBox();
+            this.prmntscellnoviewbox = new System.Windows.Forms.TextBox();
             this.navpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MinimizeICon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseIcon)).BeginInit();
@@ -2023,6 +2023,125 @@
             this.tableLayoutPanel1.SetColumnSpan(this.prspostofficecomboBox, 2);
             this.prspostofficecomboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.prspostofficecomboBox.FormattingEnabled = true;
+            this.prspostofficecomboBox.Items.AddRange(new object[] {
+            "Akhaura",
+            "Akkelpur",
+            "Alaipur",
+            "Alamdanga",
+            "Alamdighi",
+            "All",
+            "Azmireeganj",
+            "Babuganj",
+            "Bagherhat City",
+            "Bandarban City",
+            "Bangla Hili",
+            "Baralekha",
+            "Barguna City",
+            "Barishal City",
+            "Bhaluka",
+            "Bhola City",
+            "Bianibazar",
+            "Birampur",
+            "Bogra City",
+            "Bonarpara",
+            "Brahmanbaria City",
+            "Chandpur City",
+            "Chapinawabganj City",
+            "Chhatak",
+            "Chhatak Cement",
+            "Chilmari",
+            "Chittagong City",
+            "Chuadanga City",
+            "Comilla City",
+            "Cox’s Bazar City",
+            "Damurhuda",
+            "Daudkandi",
+            "Dhanmondi",
+            "Dinajpur City",
+            "Faridpur City",
+            "Fenchuganj",
+            "Feni City",
+            "Gabtoli",
+            "Gaforgaon",
+            "Gaibandha City",
+            "Gazipur City",
+            "Gobindhaganj",
+            "Gopalganj City",
+            "Gouranadi",
+            "Gouripur",
+            "Gulshan",
+            "Haluaghat",
+            "Hobiganj City",
+            "Ishwardi",
+            "Jagnnathpur",
+            "Jamalpur",
+            "Jessore City",
+            "Jhalokathi City",
+            "Jhikargachha",
+            "Jinaidaha City",
+            "Joypurhat Cityy",
+            "Kachua",
+            "Keshabpur",
+            "Khagrachari City",
+            "Khulna City",
+            "Kishoreganj City",
+            "Kulaura",
+            "Kurigram City",
+            "Lakshmipur City",
+            "Lalmonirhat City",
+            "Madaripur City",
+            "Madhabpur",
+            "Mahendiganj",
+            "Manikganj City",
+            "Mirpur",
+            "Mithapukur",
+            "Mohammadpur",
+            "Morelganj",
+            "Motijheel",
+            "Moulvibazar City",
+            "Muktagachha",
+            "Muladi",
+            "Munshiganj City",
+            "Mymensingh City",
+            "Nababganj",
+            "Nabiganj",
+            "Nachol",
+            "Nakla",
+            "Nalitabari",
+            "Naogaon City",
+            "Narayanganj City",
+            "Narsingdi City",
+            "Natore City",
+            "Netrakona City",
+            "Nilphamari City",
+            "Noakhali City",
+            "Noapara",
+            "Paikgachha",
+            "Paltan",
+            "Panchagarh City",
+            "panchbibi",
+            "Patgram",
+            "Patuakhali City",
+            "Pirojpur City",
+            "Rajbari City",
+            "Rajshahi City",
+            "Rampal",
+            "Rangamati City",
+            "Rangpur City",
+            "Rohanpur",
+            "Sahebganj",
+            "Shariatpur City",
+            "Sherpur City",
+            "Shibganj U.P.O",
+            "Sirajganj City",
+            "Srimangal",
+            "Sunamganj City",
+            "Sylhet City",
+            "Tangail Ciy",
+            "Teknaf",
+            "Thanchi",
+            "Trishal",
+            "Uzirpur"});
             this.prspostofficecomboBox.Location = new System.Drawing.Point(490, 40);
             this.prspostofficecomboBox.Name = "prspostofficecomboBox";
             this.prspostofficecomboBox.Size = new System.Drawing.Size(347, 26);
@@ -2176,25 +2295,25 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.929487F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.98077F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 13.78205F));
-            this.tableLayoutPanel2.Controls.Add(this.label1, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.label2, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.label3, 3, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label4, 3, 1);
-            this.tableLayoutPanel2.Controls.Add(this.label5, 3, 2);
-            this.tableLayoutPanel2.Controls.Add(this.label6, 6, 2);
-            this.tableLayoutPanel2.Controls.Add(this.label7, 6, 0);
-            this.tableLayoutPanel2.Controls.Add(this.comboBox1, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.comboBox3, 1, 1);
-            this.tableLayoutPanel2.Controls.Add(this.comboBox4, 4, 0);
-            this.tableLayoutPanel2.Controls.Add(this.comboBox7, 4, 1);
-            this.tableLayoutPanel2.Controls.Add(this.comboBox8, 7, 0);
-            this.tableLayoutPanel2.Controls.Add(this.textBox1, 1, 2);
-            this.tableLayoutPanel2.Controls.Add(this.textBox2, 4, 2);
-            this.tableLayoutPanel2.Controls.Add(this.textBox3, 7, 2);
-            this.tableLayoutPanel2.Controls.Add(this.label8, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.textBox4, 2, 2);
-            this.tableLayoutPanel2.Controls.Add(this.textBox5, 5, 2);
-            this.tableLayoutPanel2.Controls.Add(this.textBox6, 8, 2);
+            this.tableLayoutPanel2.Controls.Add(this.prmntthanalabel, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.prmntgbstreet, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.prmntDevisionlabel, 3, 0);
+            this.tableLayoutPanel2.Controls.Add(this.prmntpostofficelabel, 3, 1);
+            this.tableLayoutPanel2.Controls.Add(this.prmntgbaddress, 3, 2);
+            this.tableLayoutPanel2.Controls.Add(this.prsmntellnolabel, 6, 2);
+            this.tableLayoutPanel2.Controls.Add(this.prmntdistrictlabel, 6, 0);
+            this.tableLayoutPanel2.Controls.Add(this.prmntCountrycomboBox, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.prmntThanacomboBox, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.prmntdevisioncombobox, 4, 0);
+            this.tableLayoutPanel2.Controls.Add(this.prmntpostofficecomboBox, 4, 1);
+            this.tableLayoutPanel2.Controls.Add(this.prmntdistrictcomboBox, 7, 0);
+            this.tableLayoutPanel2.Controls.Add(this.prmntGBstreettextBox, 1, 2);
+            this.tableLayoutPanel2.Controls.Add(this.prmntgbaddresstextBox, 4, 2);
+            this.tableLayoutPanel2.Controls.Add(this.prmntscellnotextbox, 7, 2);
+            this.tableLayoutPanel2.Controls.Add(this.prmntcountrylabel, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.prmntgbstreetviewbox, 2, 2);
+            this.tableLayoutPanel2.Controls.Add(this.prmntgbaddressviewbox, 5, 2);
+            this.tableLayoutPanel2.Controls.Add(this.prmntscellnoviewbox, 8, 2);
             this.tableLayoutPanel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 30);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -2206,83 +2325,83 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(1248, 109);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
-            // label1
+            // prmntthanalabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Thana";
+            this.prmntthanalabel.AutoSize = true;
+            this.prmntthanalabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prmntthanalabel.Location = new System.Drawing.Point(3, 37);
+            this.prmntthanalabel.Name = "prmntthanalabel";
+            this.prmntthanalabel.Size = new System.Drawing.Size(46, 16);
+            this.prmntthanalabel.TabIndex = 1;
+            this.prmntthanalabel.Text = "Thana";
             // 
-            // label2
+            // prmntgbstreet
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 70);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 16);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "GB Street";
+            this.prmntgbstreet.AutoSize = true;
+            this.prmntgbstreet.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prmntgbstreet.Location = new System.Drawing.Point(3, 70);
+            this.prmntgbstreet.Name = "prmntgbstreet";
+            this.prmntgbstreet.Size = new System.Drawing.Size(64, 16);
+            this.prmntgbstreet.TabIndex = 2;
+            this.prmntgbstreet.Text = "GB Street";
             // 
-            // label3
+            // prmntDevisionlabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(401, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 16);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Devision";
+            this.prmntDevisionlabel.AutoSize = true;
+            this.prmntDevisionlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prmntDevisionlabel.Location = new System.Drawing.Point(401, 0);
+            this.prmntDevisionlabel.Name = "prmntDevisionlabel";
+            this.prmntDevisionlabel.Size = new System.Drawing.Size(60, 16);
+            this.prmntDevisionlabel.TabIndex = 4;
+            this.prmntDevisionlabel.Text = "Devision";
             // 
-            // label4
+            // prmntpostofficelabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(401, 37);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 16);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Post Office";
+            this.prmntpostofficelabel.AutoSize = true;
+            this.prmntpostofficelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prmntpostofficelabel.Location = new System.Drawing.Point(401, 37);
+            this.prmntpostofficelabel.Name = "prmntpostofficelabel";
+            this.prmntpostofficelabel.Size = new System.Drawing.Size(71, 16);
+            this.prmntpostofficelabel.TabIndex = 5;
+            this.prmntpostofficelabel.Text = "Post Office";
             // 
-            // label5
+            // prmntgbaddress
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(401, 70);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 16);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "GB Address";
+            this.prmntgbaddress.AutoSize = true;
+            this.prmntgbaddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prmntgbaddress.Location = new System.Drawing.Point(401, 70);
+            this.prmntgbaddress.Name = "prmntgbaddress";
+            this.prmntgbaddress.Size = new System.Drawing.Size(80, 16);
+            this.prmntgbaddress.TabIndex = 6;
+            this.prmntgbaddress.Text = "GB Address";
             // 
-            // label6
+            // prsmntellnolabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(843, 70);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 16);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Cell No";
+            this.prsmntellnolabel.AutoSize = true;
+            this.prsmntellnolabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prsmntellnolabel.Location = new System.Drawing.Point(843, 70);
+            this.prsmntellnolabel.Name = "prsmntellnolabel";
+            this.prsmntellnolabel.Size = new System.Drawing.Size(51, 16);
+            this.prsmntellnolabel.TabIndex = 9;
+            this.prsmntellnolabel.Text = "Cell No";
             // 
-            // label7
+            // prmntdistrictlabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(843, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(47, 16);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "District";
+            this.prmntdistrictlabel.AutoSize = true;
+            this.prmntdistrictlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prmntdistrictlabel.Location = new System.Drawing.Point(843, 0);
+            this.prmntdistrictlabel.Name = "prmntdistrictlabel";
+            this.prmntdistrictlabel.Size = new System.Drawing.Size(47, 16);
+            this.prmntdistrictlabel.TabIndex = 8;
+            this.prmntdistrictlabel.Text = "District";
             // 
-            // comboBox1
+            // prmntCountrycomboBox
             // 
-            this.tableLayoutPanel2.SetColumnSpan(this.comboBox1, 2);
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.tableLayoutPanel2.SetColumnSpan(this.prmntCountrycomboBox, 2);
+            this.prmntCountrycomboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.prmntCountrycomboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.prmntCountrycomboBox.FormattingEnabled = true;
+            this.prmntCountrycomboBox.Items.AddRange(new object[] {
             "Afghanistan",
             "Albania",
             "Algeria",
@@ -2478,18 +2597,18 @@
             "Yemen",
             "Zambia",
             "Zimbabwe"});
-            this.comboBox1.Location = new System.Drawing.Point(75, 3);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(320, 26);
-            this.comboBox1.TabIndex = 0;
+            this.prmntCountrycomboBox.Location = new System.Drawing.Point(75, 3);
+            this.prmntCountrycomboBox.Name = "prmntCountrycomboBox";
+            this.prmntCountrycomboBox.Size = new System.Drawing.Size(320, 26);
+            this.prmntCountrycomboBox.TabIndex = 0;
             // 
-            // comboBox3
+            // prmntThanacomboBox
             // 
-            this.tableLayoutPanel2.SetColumnSpan(this.comboBox3, 2);
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.tableLayoutPanel2.SetColumnSpan(this.prmntThanacomboBox, 2);
+            this.prmntThanacomboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.prmntThanacomboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.prmntThanacomboBox.FormattingEnabled = true;
+            this.prmntThanacomboBox.Items.AddRange(new object[] {
             "Abhaynagar",
             "Adamdighi",
             "Aditmari",
@@ -2997,17 +3116,17 @@
             "Zakiganj",
             "Zanjira",
             "Zianagor"});
-            this.comboBox3.Location = new System.Drawing.Point(75, 40);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(320, 26);
-            this.comboBox3.TabIndex = 1;
+            this.prmntThanacomboBox.Location = new System.Drawing.Point(75, 40);
+            this.prmntThanacomboBox.Name = "prmntThanacomboBox";
+            this.prmntThanacomboBox.Size = new System.Drawing.Size(320, 26);
+            this.prmntThanacomboBox.TabIndex = 1;
             // 
-            // comboBox4
+            // prmntdevisioncombobox
             // 
-            this.tableLayoutPanel2.SetColumnSpan(this.comboBox4, 2);
-            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.tableLayoutPanel2.SetColumnSpan(this.prmntdevisioncombobox, 2);
+            this.prmntdevisioncombobox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.prmntdevisioncombobox.FormattingEnabled = true;
+            this.prmntdevisioncombobox.Items.AddRange(new object[] {
             "Barisal ",
             "Chittagong",
             "Dhaka ",
@@ -3016,27 +3135,146 @@
             "Rajshahi ",
             "Rangpur ",
             "Sylhet"});
-            this.comboBox4.Location = new System.Drawing.Point(490, 3);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(347, 26);
-            this.comboBox4.TabIndex = 3;
+            this.prmntdevisioncombobox.Location = new System.Drawing.Point(490, 3);
+            this.prmntdevisioncombobox.Name = "prmntdevisioncombobox";
+            this.prmntdevisioncombobox.Size = new System.Drawing.Size(347, 26);
+            this.prmntdevisioncombobox.TabIndex = 3;
             // 
-            // comboBox7
+            // prmntpostofficecomboBox
             // 
-            this.tableLayoutPanel2.SetColumnSpan(this.comboBox7, 2);
-            this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(490, 40);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(347, 26);
-            this.comboBox7.TabIndex = 4;
+            this.tableLayoutPanel2.SetColumnSpan(this.prmntpostofficecomboBox, 2);
+            this.prmntpostofficecomboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.prmntpostofficecomboBox.FormattingEnabled = true;
+            this.prmntpostofficecomboBox.Items.AddRange(new object[] {
+            "Akhaura",
+            "Akkelpur",
+            "Alaipur",
+            "Alamdanga",
+            "Alamdighi",
+            "All",
+            "Azmireeganj",
+            "Babuganj",
+            "Bagherhat City",
+            "Bandarban City",
+            "Bangla Hili",
+            "Baralekha",
+            "Barguna City",
+            "Barishal City",
+            "Bhaluka",
+            "Bhola City",
+            "Bianibazar",
+            "Birampur",
+            "Bogra City",
+            "Bonarpara",
+            "Brahmanbaria City",
+            "Chandpur City",
+            "Chapinawabganj City",
+            "Chhatak",
+            "Chhatak Cement",
+            "Chilmari",
+            "Chittagong City",
+            "Chuadanga City",
+            "Comilla City",
+            "Cox’s Bazar City",
+            "Damurhuda",
+            "Daudkandi",
+            "Dhanmondi",
+            "Dinajpur City",
+            "Faridpur City",
+            "Fenchuganj",
+            "Feni City",
+            "Gabtoli",
+            "Gaforgaon",
+            "Gaibandha City",
+            "Gazipur City",
+            "Gobindhaganj",
+            "Gopalganj City",
+            "Gouranadi",
+            "Gouripur",
+            "Gulshan",
+            "Haluaghat",
+            "Hobiganj City",
+            "Ishwardi",
+            "Jagnnathpur",
+            "Jamalpur",
+            "Jessore City",
+            "Jhalokathi City",
+            "Jhikargachha",
+            "Jinaidaha City",
+            "Joypurhat Cityy",
+            "Kachua",
+            "Keshabpur",
+            "Khagrachari City",
+            "Khulna City",
+            "Kishoreganj City",
+            "Kulaura",
+            "Kurigram City",
+            "Lakshmipur City",
+            "Lalmonirhat City",
+            "Madaripur City",
+            "Madhabpur",
+            "Mahendiganj",
+            "Manikganj City",
+            "Mirpur",
+            "Mithapukur",
+            "Mohammadpur",
+            "Morelganj",
+            "Motijheel",
+            "Moulvibazar City",
+            "Muktagachha",
+            "Muladi",
+            "Munshiganj City",
+            "Mymensingh City",
+            "Nababganj",
+            "Nabiganj",
+            "Nachol",
+            "Nakla",
+            "Nalitabari",
+            "Naogaon City",
+            "Narayanganj City",
+            "Narsingdi City",
+            "Natore City",
+            "Netrakona City",
+            "Nilphamari City",
+            "Noakhali City",
+            "Noapara",
+            "Paikgachha",
+            "Paltan",
+            "Panchagarh City",
+            "panchbibi",
+            "Patgram",
+            "Patuakhali City",
+            "Pirojpur City",
+            "Rajbari City",
+            "Rajshahi City",
+            "Rampal",
+            "Rangamati City",
+            "Rangpur City",
+            "Rohanpur",
+            "Sahebganj",
+            "Shariatpur City",
+            "Sherpur City",
+            "Shibganj U.P.O",
+            "Sirajganj City",
+            "Srimangal",
+            "Sunamganj City",
+            "Sylhet City",
+            "Tangail Ciy",
+            "Teknaf",
+            "Thanchi",
+            "Trishal",
+            "Uzirpur"});
+            this.prmntpostofficecomboBox.Location = new System.Drawing.Point(490, 40);
+            this.prmntpostofficecomboBox.Name = "prmntpostofficecomboBox";
+            this.prmntpostofficecomboBox.Size = new System.Drawing.Size(347, 26);
+            this.prmntpostofficecomboBox.TabIndex = 4;
             // 
-            // comboBox8
+            // prmntdistrictcomboBox
             // 
-            this.tableLayoutPanel2.SetColumnSpan(this.comboBox8, 2);
-            this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
+            this.tableLayoutPanel2.SetColumnSpan(this.prmntdistrictcomboBox, 2);
+            this.prmntdistrictcomboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.prmntdistrictcomboBox.FormattingEnabled = true;
+            this.prmntdistrictcomboBox.Items.AddRange(new object[] {
             "Barguna",
             "Barisal",
             "Bhola",
@@ -3101,69 +3339,69 @@
             "Moulvibazar",
             "Sunamganj",
             "Sylhet"});
-            this.comboBox8.Location = new System.Drawing.Point(917, 3);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(325, 26);
-            this.comboBox8.TabIndex = 6;
+            this.prmntdistrictcomboBox.Location = new System.Drawing.Point(917, 3);
+            this.prmntdistrictcomboBox.Name = "prmntdistrictcomboBox";
+            this.prmntdistrictcomboBox.Size = new System.Drawing.Size(325, 26);
+            this.prmntdistrictcomboBox.TabIndex = 6;
             // 
-            // textBox1
+            // prmntGBstreettextBox
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox1.Location = new System.Drawing.Point(75, 73);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(191, 24);
-            this.textBox1.TabIndex = 2;
+            this.prmntGBstreettextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.prmntGBstreettextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.prmntGBstreettextBox.Location = new System.Drawing.Point(75, 73);
+            this.prmntGBstreettextBox.Name = "prmntGBstreettextBox";
+            this.prmntGBstreettextBox.Size = new System.Drawing.Size(191, 24);
+            this.prmntGBstreettextBox.TabIndex = 2;
             // 
-            // textBox2
+            // prmntgbaddresstextBox
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Location = new System.Drawing.Point(490, 73);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(207, 24);
-            this.textBox2.TabIndex = 5;
+            this.prmntgbaddresstextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.prmntgbaddresstextBox.Location = new System.Drawing.Point(490, 73);
+            this.prmntgbaddresstextBox.Name = "prmntgbaddresstextBox";
+            this.prmntgbaddresstextBox.Size = new System.Drawing.Size(207, 24);
+            this.prmntgbaddresstextBox.TabIndex = 5;
             // 
-            // textBox3
+            // prmntscellnotextbox
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Location = new System.Drawing.Point(917, 73);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(156, 24);
-            this.textBox3.TabIndex = 7;
+            this.prmntscellnotextbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.prmntscellnotextbox.Location = new System.Drawing.Point(917, 73);
+            this.prmntscellnotextbox.Name = "prmntscellnotextbox";
+            this.prmntscellnotextbox.Size = new System.Drawing.Size(156, 24);
+            this.prmntscellnotextbox.TabIndex = 7;
             // 
-            // label8
+            // prmntcountrylabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(3, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(52, 16);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Country";
+            this.prmntcountrylabel.AutoSize = true;
+            this.prmntcountrylabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prmntcountrylabel.Location = new System.Drawing.Point(3, 0);
+            this.prmntcountrylabel.Name = "prmntcountrylabel";
+            this.prmntcountrylabel.Size = new System.Drawing.Size(52, 16);
+            this.prmntcountrylabel.TabIndex = 0;
+            this.prmntcountrylabel.Text = "Country";
             // 
-            // textBox4
+            // prmntgbstreetviewbox
             // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Location = new System.Drawing.Point(272, 73);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(123, 24);
-            this.textBox4.TabIndex = 21;
+            this.prmntgbstreetviewbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.prmntgbstreetviewbox.Location = new System.Drawing.Point(272, 73);
+            this.prmntgbstreetviewbox.Name = "prmntgbstreetviewbox";
+            this.prmntgbstreetviewbox.Size = new System.Drawing.Size(123, 24);
+            this.prmntgbstreetviewbox.TabIndex = 21;
             // 
-            // textBox5
+            // prmntgbaddressviewbox
             // 
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Location = new System.Drawing.Point(703, 73);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(128, 24);
-            this.textBox5.TabIndex = 22;
+            this.prmntgbaddressviewbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.prmntgbaddressviewbox.Location = new System.Drawing.Point(703, 73);
+            this.prmntgbaddressviewbox.Name = "prmntgbaddressviewbox";
+            this.prmntgbaddressviewbox.Size = new System.Drawing.Size(128, 24);
+            this.prmntgbaddressviewbox.TabIndex = 22;
             // 
-            // textBox6
+            // prmntscellnoviewbox
             // 
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox6.Location = new System.Drawing.Point(1079, 73);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(165, 24);
-            this.textBox6.TabIndex = 23;
+            this.prmntscellnoviewbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.prmntscellnoviewbox.Location = new System.Drawing.Point(1079, 73);
+            this.prmntscellnoviewbox.Name = "prmntscellnoviewbox";
+            this.prmntscellnoviewbox.Size = new System.Drawing.Size(165, 24);
+            this.prmntscellnoviewbox.TabIndex = 23;
             // 
             // EntryForm
             // 
@@ -3303,25 +3541,25 @@
         private System.Windows.Forms.TextBox prscellnoviewbox;
         private System.Windows.Forms.GroupBox permanentaddressgroupBox;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label prmntthanalabel;
+        private System.Windows.Forms.Label prmntgbstreet;
+        private System.Windows.Forms.Label prmntDevisionlabel;
+        private System.Windows.Forms.Label prmntpostofficelabel;
+        private System.Windows.Forms.Label prmntgbaddress;
+        private System.Windows.Forms.Label prsmntellnolabel;
+        private System.Windows.Forms.Label prmntdistrictlabel;
+        private System.Windows.Forms.ComboBox prmntCountrycomboBox;
+        private System.Windows.Forms.ComboBox prmntThanacomboBox;
+        private System.Windows.Forms.ComboBox prmntdevisioncombobox;
+        private System.Windows.Forms.ComboBox prmntpostofficecomboBox;
+        private System.Windows.Forms.ComboBox prmntdistrictcomboBox;
+        private System.Windows.Forms.TextBox prmntGBstreettextBox;
+        private System.Windows.Forms.TextBox prmntgbaddresstextBox;
+        private System.Windows.Forms.TextBox prmntscellnotextbox;
+        private System.Windows.Forms.Label prmntcountrylabel;
+        private System.Windows.Forms.TextBox prmntgbstreetviewbox;
+        private System.Windows.Forms.TextBox prmntgbaddressviewbox;
+        private System.Windows.Forms.TextBox prmntscellnoviewbox;
     }
 }
 
