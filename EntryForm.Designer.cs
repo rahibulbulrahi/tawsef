@@ -123,18 +123,18 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.familydetails1 = new System.Windows.Forms.TextBox();
+            this.familydetails4 = new System.Windows.Forms.TextBox();
+            this.familydetails7 = new System.Windows.Forms.TextBox();
+            this.familydetails10 = new System.Windows.Forms.TextBox();
+            this.familydetails2 = new System.Windows.Forms.TextBox();
+            this.familydetails5 = new System.Windows.Forms.TextBox();
+            this.familydetails8 = new System.Windows.Forms.TextBox();
+            this.familydetails11 = new System.Windows.Forms.TextBox();
+            this.familydetails3 = new System.Windows.Forms.TextBox();
+            this.familydetails6 = new System.Windows.Forms.TextBox();
+            this.familydetails9 = new System.Windows.Forms.TextBox();
+            this.familydetails12 = new System.Windows.Forms.TextBox();
             this.navpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MinimizeICon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseIcon)).BeginInit();
@@ -1153,18 +1153,18 @@
             this.tableLayoutPanel1.Controls.Add(this.label11, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.label12, 1, 4);
             this.tableLayoutPanel1.Controls.Add(this.label13, 1, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox14, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox15, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox16, 2, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox17, 2, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox18, 3, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox19, 3, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox21, 3, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox22, 3, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox23, 4, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox24, 4, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox25, 4, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox26, 4, 5);
+            this.tableLayoutPanel1.Controls.Add(this.familydetails1, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.familydetails4, 2, 3);
+            this.tableLayoutPanel1.Controls.Add(this.familydetails7, 2, 4);
+            this.tableLayoutPanel1.Controls.Add(this.familydetails10, 2, 5);
+            this.tableLayoutPanel1.Controls.Add(this.familydetails2, 3, 2);
+            this.tableLayoutPanel1.Controls.Add(this.familydetails5, 3, 3);
+            this.tableLayoutPanel1.Controls.Add(this.familydetails8, 3, 4);
+            this.tableLayoutPanel1.Controls.Add(this.familydetails11, 3, 5);
+            this.tableLayoutPanel1.Controls.Add(this.familydetails3, 4, 2);
+            this.tableLayoutPanel1.Controls.Add(this.familydetails6, 4, 3);
+            this.tableLayoutPanel1.Controls.Add(this.familydetails9, 4, 4);
+            this.tableLayoutPanel1.Controls.Add(this.familydetails12, 4, 5);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(6, 30);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 7;
@@ -1323,125 +1323,125 @@
             this.label13.TabIndex = 17;
             this.label13.Text = "0";
             // 
-            // textBox14
+            // familydetails1
             // 
-            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox14.Location = new System.Drawing.Point(500, 73);
-            this.textBox14.Multiline = true;
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(242, 29);
-            this.textBox14.TabIndex = 18;
+            this.familydetails1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familydetails1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familydetails1.Location = new System.Drawing.Point(500, 73);
+            this.familydetails1.Multiline = true;
+            this.familydetails1.Name = "familydetails1";
+            this.familydetails1.Size = new System.Drawing.Size(242, 29);
+            this.familydetails1.TabIndex = 18;
             // 
-            // textBox15
+            // familydetails4
             // 
-            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox15.Location = new System.Drawing.Point(500, 108);
-            this.textBox15.Multiline = true;
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(242, 29);
-            this.textBox15.TabIndex = 19;
+            this.familydetails4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familydetails4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familydetails4.Location = new System.Drawing.Point(500, 108);
+            this.familydetails4.Multiline = true;
+            this.familydetails4.Name = "familydetails4";
+            this.familydetails4.Size = new System.Drawing.Size(242, 29);
+            this.familydetails4.TabIndex = 19;
             // 
-            // textBox16
+            // familydetails7
             // 
-            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox16.Location = new System.Drawing.Point(500, 145);
-            this.textBox16.Multiline = true;
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(242, 27);
-            this.textBox16.TabIndex = 20;
+            this.familydetails7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familydetails7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familydetails7.Location = new System.Drawing.Point(500, 145);
+            this.familydetails7.Multiline = true;
+            this.familydetails7.Name = "familydetails7";
+            this.familydetails7.Size = new System.Drawing.Size(242, 27);
+            this.familydetails7.TabIndex = 20;
             // 
-            // textBox17
+            // familydetails10
             // 
-            this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox17.Location = new System.Drawing.Point(500, 178);
-            this.textBox17.Multiline = true;
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(242, 29);
-            this.textBox17.TabIndex = 21;
+            this.familydetails10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familydetails10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familydetails10.Location = new System.Drawing.Point(500, 178);
+            this.familydetails10.Multiline = true;
+            this.familydetails10.Name = "familydetails10";
+            this.familydetails10.Size = new System.Drawing.Size(242, 29);
+            this.familydetails10.TabIndex = 21;
             // 
-            // textBox18
+            // familydetails2
             // 
-            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox18.Location = new System.Drawing.Point(748, 73);
-            this.textBox18.Multiline = true;
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(242, 29);
-            this.textBox18.TabIndex = 22;
+            this.familydetails2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familydetails2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familydetails2.Location = new System.Drawing.Point(748, 73);
+            this.familydetails2.Multiline = true;
+            this.familydetails2.Name = "familydetails2";
+            this.familydetails2.Size = new System.Drawing.Size(242, 29);
+            this.familydetails2.TabIndex = 22;
             // 
-            // textBox19
+            // familydetails5
             // 
-            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox19.Location = new System.Drawing.Point(748, 108);
-            this.textBox19.Multiline = true;
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(242, 29);
-            this.textBox19.TabIndex = 23;
+            this.familydetails5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familydetails5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familydetails5.Location = new System.Drawing.Point(748, 108);
+            this.familydetails5.Multiline = true;
+            this.familydetails5.Name = "familydetails5";
+            this.familydetails5.Size = new System.Drawing.Size(242, 29);
+            this.familydetails5.TabIndex = 23;
             // 
-            // textBox21
+            // familydetails8
             // 
-            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox21.Location = new System.Drawing.Point(748, 145);
-            this.textBox21.Multiline = true;
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(242, 27);
-            this.textBox21.TabIndex = 25;
+            this.familydetails8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familydetails8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familydetails8.Location = new System.Drawing.Point(748, 145);
+            this.familydetails8.Multiline = true;
+            this.familydetails8.Name = "familydetails8";
+            this.familydetails8.Size = new System.Drawing.Size(242, 27);
+            this.familydetails8.TabIndex = 25;
             // 
-            // textBox22
+            // familydetails11
             // 
-            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox22.Location = new System.Drawing.Point(748, 178);
-            this.textBox22.Multiline = true;
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(242, 29);
-            this.textBox22.TabIndex = 24;
+            this.familydetails11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familydetails11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familydetails11.Location = new System.Drawing.Point(748, 178);
+            this.familydetails11.Multiline = true;
+            this.familydetails11.Name = "familydetails11";
+            this.familydetails11.Size = new System.Drawing.Size(242, 29);
+            this.familydetails11.TabIndex = 24;
             // 
-            // textBox23
+            // familydetails3
             // 
-            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox23.Location = new System.Drawing.Point(996, 73);
-            this.textBox23.Multiline = true;
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(245, 29);
-            this.textBox23.TabIndex = 26;
+            this.familydetails3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familydetails3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familydetails3.Location = new System.Drawing.Point(996, 73);
+            this.familydetails3.Multiline = true;
+            this.familydetails3.Name = "familydetails3";
+            this.familydetails3.Size = new System.Drawing.Size(245, 29);
+            this.familydetails3.TabIndex = 26;
             // 
-            // textBox24
+            // familydetails6
             // 
-            this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox24.Location = new System.Drawing.Point(996, 108);
-            this.textBox24.Multiline = true;
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(245, 29);
-            this.textBox24.TabIndex = 27;
+            this.familydetails6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familydetails6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familydetails6.Location = new System.Drawing.Point(996, 108);
+            this.familydetails6.Multiline = true;
+            this.familydetails6.Name = "familydetails6";
+            this.familydetails6.Size = new System.Drawing.Size(245, 29);
+            this.familydetails6.TabIndex = 27;
             // 
-            // textBox25
+            // familydetails9
             // 
-            this.textBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox25.Location = new System.Drawing.Point(996, 145);
-            this.textBox25.Multiline = true;
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(245, 27);
-            this.textBox25.TabIndex = 28;
+            this.familydetails9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familydetails9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familydetails9.Location = new System.Drawing.Point(996, 145);
+            this.familydetails9.Multiline = true;
+            this.familydetails9.Name = "familydetails9";
+            this.familydetails9.Size = new System.Drawing.Size(245, 27);
+            this.familydetails9.TabIndex = 28;
             // 
-            // textBox26
+            // familydetails12
             // 
-            this.textBox26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox26.Location = new System.Drawing.Point(996, 178);
-            this.textBox26.Multiline = true;
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(245, 29);
-            this.textBox26.TabIndex = 29;
+            this.familydetails12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familydetails12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familydetails12.Location = new System.Drawing.Point(996, 178);
+            this.familydetails12.Multiline = true;
+            this.familydetails12.Name = "familydetails12";
+            this.familydetails12.Size = new System.Drawing.Size(245, 29);
+            this.familydetails12.TabIndex = 29;
             // 
             // EntryForm
             // 
@@ -1570,18 +1570,18 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox familydetails1;
+        private System.Windows.Forms.TextBox familydetails4;
+        private System.Windows.Forms.TextBox familydetails7;
+        private System.Windows.Forms.TextBox familydetails10;
+        private System.Windows.Forms.TextBox familydetails2;
+        private System.Windows.Forms.TextBox familydetails5;
+        private System.Windows.Forms.TextBox familydetails8;
+        private System.Windows.Forms.TextBox familydetails11;
+        private System.Windows.Forms.TextBox familydetails3;
+        private System.Windows.Forms.TextBox familydetails6;
+        private System.Windows.Forms.TextBox familydetails9;
+        private System.Windows.Forms.TextBox familydetails12;
     }
 }
 
