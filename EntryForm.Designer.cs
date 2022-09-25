@@ -79,9 +79,9 @@
             this.maritialstatuscomboBox = new System.Windows.Forms.ComboBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.navabrCustomerDetails = new System.Windows.Forms.Label();
             this.DOBpicker = new System.Windows.Forms.DateTimePicker();
-            this.customerfamilypanel = new System.Windows.Forms.GroupBox();
+            this.customerfamilygroupbox = new System.Windows.Forms.GroupBox();
             this.CustomerFamilyAddressTableLayout = new System.Windows.Forms.TableLayoutPanel();
             this.customerIDlabel = new System.Windows.Forms.Label();
             this.custmerIDtextBox2 = new System.Windows.Forms.TextBox();
@@ -96,45 +96,39 @@
             this.mrLabel2 = new System.Windows.Forms.Label();
             this.mstLabel1 = new System.Windows.Forms.Label();
             this.zeroLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.familytextbox1 = new System.Windows.Forms.TextBox();
+            this.familytextbox4 = new System.Windows.Forms.TextBox();
+            this.familytextbox7 = new System.Windows.Forms.TextBox();
+            this.familytextbox10 = new System.Windows.Forms.TextBox();
+            this.familytextbox2 = new System.Windows.Forms.TextBox();
+            this.familytextbox5 = new System.Windows.Forms.TextBox();
+            this.familytextbox11 = new System.Windows.Forms.TextBox();
+            this.familytextbox8 = new System.Windows.Forms.TextBox();
+            this.familytextbox3 = new System.Windows.Forms.TextBox();
+            this.familytextbox6 = new System.Windows.Forms.TextBox();
+            this.familytextbox9 = new System.Windows.Forms.TextBox();
+            this.familytextbox12 = new System.Windows.Forms.TextBox();
+            this.presentAddressgroupbox = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.familydetails1 = new System.Windows.Forms.TextBox();
-            this.familydetails4 = new System.Windows.Forms.TextBox();
-            this.familydetails7 = new System.Windows.Forms.TextBox();
-            this.familydetails10 = new System.Windows.Forms.TextBox();
-            this.familydetails2 = new System.Windows.Forms.TextBox();
-            this.familydetails5 = new System.Windows.Forms.TextBox();
-            this.familydetails8 = new System.Windows.Forms.TextBox();
-            this.familydetails11 = new System.Windows.Forms.TextBox();
-            this.familydetails3 = new System.Windows.Forms.TextBox();
-            this.familydetails6 = new System.Windows.Forms.TextBox();
-            this.familydetails9 = new System.Windows.Forms.TextBox();
-            this.familydetails12 = new System.Windows.Forms.TextBox();
+            this.prscountrylabel = new System.Windows.Forms.Label();
+            this.prsthanalabel = new System.Windows.Forms.Label();
+            this.prsgbstreet = new System.Windows.Forms.Label();
+            this.prsDevisionlabel = new System.Windows.Forms.Label();
+            this.prspostofficelabel = new System.Windows.Forms.Label();
+            this.prsgbaddress = new System.Windows.Forms.Label();
+            this.prsdistrictlabel = new System.Windows.Forms.Label();
+            this.prscellnolabel = new System.Windows.Forms.Label();
+            this.prsCountrycomboBox = new System.Windows.Forms.ComboBox();
+            this.prsThanacomboBox = new System.Windows.Forms.ComboBox();
+            this.prsdevisioncombobox = new System.Windows.Forms.ComboBox();
+            this.prspostofficecomboBox = new System.Windows.Forms.ComboBox();
+            this.prsdistrictcomboBox = new System.Windows.Forms.ComboBox();
+            this.prsGBstreettextBox = new System.Windows.Forms.TextBox();
+            this.prsgbaddresstextBox = new System.Windows.Forms.TextBox();
+            this.prscellnotextbox = new System.Windows.Forms.TextBox();
+            this.prsgbstreetviewbox = new System.Windows.Forms.TextBox();
+            this.prsgbaddressviewbox = new System.Windows.Forms.TextBox();
+            this.prscellnoviewbox = new System.Windows.Forms.TextBox();
             this.navpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MinimizeICon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseIcon)).BeginInit();
@@ -142,16 +136,16 @@
             this.CustomerBasicDetailsGroupBox.SuspendLayout();
             this.CustomerBasicTablePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.userpicture)).BeginInit();
-            this.customerfamilypanel.SuspendLayout();
+            this.customerfamilygroupbox.SuspendLayout();
             this.CustomerFamilyAddressTableLayout.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.presentAddressgroupbox.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // navpanel
             // 
             this.navpanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(41)))), ((int)(((byte)(84)))));
-            this.navpanel.Controls.Add(this.label1);
+            this.navpanel.Controls.Add(this.navabrCustomerDetails);
             this.navpanel.Controls.Add(this.MinimizeICon);
             this.navpanel.Controls.Add(this.CloseIcon);
             this.navpanel.Dock = System.Windows.Forms.DockStyle.Top;
@@ -191,8 +185,8 @@
             // 
             this.mainPanel.AutoScroll = true;
             this.mainPanel.BackColor = System.Drawing.Color.White;
-            this.mainPanel.Controls.Add(this.groupBox1);
-            this.mainPanel.Controls.Add(this.customerfamilypanel);
+            this.mainPanel.Controls.Add(this.presentAddressgroupbox);
+            this.mainPanel.Controls.Add(this.customerfamilygroupbox);
             this.mainPanel.Controls.Add(this.CustomerBasicDetailsGroupBox);
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainPanel.Location = new System.Drawing.Point(0, 40);
@@ -534,7 +528,7 @@
             this.searchTextbox.Name = "searchTextbox";
             this.searchTextbox.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.searchTextbox.Size = new System.Drawing.Size(243, 31);
-            this.searchTextbox.TabIndex = 21;
+            this.searchTextbox.TabIndex = 22;
             this.searchTextbox.Text = "search";
             this.searchTextbox.Enter += new System.EventHandler(this.searchTextbox_Enter);
             this.searchTextbox.Leave += new System.EventHandler(this.searchTextbox_Leave);
@@ -667,7 +661,7 @@
             this.textBox20.Multiline = true;
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(350, 31);
-            this.textBox20.TabIndex = 22;
+            this.textBox20.TabIndex = 21;
             // 
             // yeartextBox
             // 
@@ -775,16 +769,16 @@
             this.comboBox6.Size = new System.Drawing.Size(355, 26);
             this.comboBox6.TabIndex = 8;
             // 
-            // label1
+            // navabrCustomerDetails
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(7, 8);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 23);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Customer Detail";
+            this.navabrCustomerDetails.AutoSize = true;
+            this.navabrCustomerDetails.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navabrCustomerDetails.ForeColor = System.Drawing.Color.White;
+            this.navabrCustomerDetails.Location = new System.Drawing.Point(7, 8);
+            this.navabrCustomerDetails.Name = "navabrCustomerDetails";
+            this.navabrCustomerDetails.Size = new System.Drawing.Size(157, 23);
+            this.navabrCustomerDetails.TabIndex = 9;
+            this.navabrCustomerDetails.Text = "Customer Detail";
             // 
             // DOBpicker
             // 
@@ -797,17 +791,17 @@
             this.DOBpicker.Size = new System.Drawing.Size(350, 22);
             this.DOBpicker.TabIndex = 17;
             // 
-            // customerfamilypanel
+            // customerfamilygroupbox
             // 
-            this.customerfamilypanel.Controls.Add(this.CustomerFamilyAddressTableLayout);
-            this.customerfamilypanel.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerfamilypanel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(170)))), ((int)(((byte)(255)))));
-            this.customerfamilypanel.Location = new System.Drawing.Point(12, 488);
-            this.customerfamilypanel.Name = "customerfamilypanel";
-            this.customerfamilypanel.Size = new System.Drawing.Size(1254, 249);
-            this.customerfamilypanel.TabIndex = 1;
-            this.customerfamilypanel.TabStop = false;
-            this.customerfamilypanel.Text = "Cutomer Family and Address Detail";
+            this.customerfamilygroupbox.Controls.Add(this.CustomerFamilyAddressTableLayout);
+            this.customerfamilygroupbox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerfamilygroupbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(170)))), ((int)(((byte)(255)))));
+            this.customerfamilygroupbox.Location = new System.Drawing.Point(8, 488);
+            this.customerfamilygroupbox.Name = "customerfamilygroupbox";
+            this.customerfamilygroupbox.Size = new System.Drawing.Size(1254, 254);
+            this.customerfamilygroupbox.TabIndex = 1;
+            this.customerfamilygroupbox.TabStop = false;
+            this.customerfamilygroupbox.Text = "Cutomer Family and Address Detail";
             // 
             // CustomerFamilyAddressTableLayout
             // 
@@ -824,24 +818,24 @@
             this.CustomerFamilyAddressTableLayout.Controls.Add(this.fullnameLabel, 0, 2);
             this.CustomerFamilyAddressTableLayout.Controls.Add(this.fathernamelabel, 0, 3);
             this.CustomerFamilyAddressTableLayout.Controls.Add(this.mothernamelabel, 0, 4);
-            this.CustomerFamilyAddressTableLayout.Controls.Add(this.spousenamelabel, 0, 5);
             this.CustomerFamilyAddressTableLayout.Controls.Add(this.mrLabel1, 1, 2);
             this.CustomerFamilyAddressTableLayout.Controls.Add(this.onezeoonelabel, 1, 1);
             this.CustomerFamilyAddressTableLayout.Controls.Add(this.mrLabel2, 1, 3);
             this.CustomerFamilyAddressTableLayout.Controls.Add(this.mstLabel1, 1, 4);
             this.CustomerFamilyAddressTableLayout.Controls.Add(this.zeroLabel, 1, 5);
-            this.CustomerFamilyAddressTableLayout.Controls.Add(this.textBox1, 2, 2);
-            this.CustomerFamilyAddressTableLayout.Controls.Add(this.textBox2, 2, 3);
-            this.CustomerFamilyAddressTableLayout.Controls.Add(this.textBox3, 2, 4);
-            this.CustomerFamilyAddressTableLayout.Controls.Add(this.textBox4, 2, 5);
-            this.CustomerFamilyAddressTableLayout.Controls.Add(this.textBox5, 3, 2);
-            this.CustomerFamilyAddressTableLayout.Controls.Add(this.textBox6, 3, 3);
-            this.CustomerFamilyAddressTableLayout.Controls.Add(this.textBox8, 3, 4);
-            this.CustomerFamilyAddressTableLayout.Controls.Add(this.textBox7, 3, 5);
-            this.CustomerFamilyAddressTableLayout.Controls.Add(this.textBox9, 4, 2);
-            this.CustomerFamilyAddressTableLayout.Controls.Add(this.textBox10, 4, 3);
-            this.CustomerFamilyAddressTableLayout.Controls.Add(this.textBox11, 4, 4);
-            this.CustomerFamilyAddressTableLayout.Controls.Add(this.textBox12, 4, 5);
+            this.CustomerFamilyAddressTableLayout.Controls.Add(this.familytextbox1, 2, 2);
+            this.CustomerFamilyAddressTableLayout.Controls.Add(this.familytextbox4, 2, 3);
+            this.CustomerFamilyAddressTableLayout.Controls.Add(this.familytextbox7, 2, 4);
+            this.CustomerFamilyAddressTableLayout.Controls.Add(this.familytextbox10, 2, 5);
+            this.CustomerFamilyAddressTableLayout.Controls.Add(this.familytextbox2, 3, 2);
+            this.CustomerFamilyAddressTableLayout.Controls.Add(this.familytextbox5, 3, 3);
+            this.CustomerFamilyAddressTableLayout.Controls.Add(this.familytextbox8, 3, 4);
+            this.CustomerFamilyAddressTableLayout.Controls.Add(this.familytextbox11, 3, 5);
+            this.CustomerFamilyAddressTableLayout.Controls.Add(this.familytextbox3, 4, 2);
+            this.CustomerFamilyAddressTableLayout.Controls.Add(this.familytextbox6, 4, 3);
+            this.CustomerFamilyAddressTableLayout.Controls.Add(this.familytextbox9, 4, 4);
+            this.CustomerFamilyAddressTableLayout.Controls.Add(this.familytextbox12, 4, 5);
+            this.CustomerFamilyAddressTableLayout.Controls.Add(this.spousenamelabel, 0, 5);
             this.CustomerFamilyAddressTableLayout.Location = new System.Drawing.Point(6, 30);
             this.CustomerFamilyAddressTableLayout.Name = "CustomerFamilyAddressTableLayout";
             this.CustomerFamilyAddressTableLayout.RowCount = 7;
@@ -876,7 +870,7 @@
             this.custmerIDtextBox2.Multiline = true;
             this.custmerIDtextBox2.Name = "custmerIDtextBox2";
             this.custmerIDtextBox2.Size = new System.Drawing.Size(909, 29);
-            this.custmerIDtextBox2.TabIndex = 1;
+            this.custmerIDtextBox2.TabIndex = 0;
             // 
             // subtypeLabel
             // 
@@ -955,6 +949,7 @@
             this.spousenamelabel.Size = new System.Drawing.Size(94, 16);
             this.spousenamelabel.TabIndex = 13;
             this.spousenamelabel.Text = "Spouse Name";
+            this.spousenamelabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // mrLabel1
             // 
@@ -1000,448 +995,1064 @@
             this.zeroLabel.TabIndex = 17;
             this.zeroLabel.Text = "0";
             // 
-            // textBox1
+            // familytextbox1
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox1.Location = new System.Drawing.Point(500, 73);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(242, 29);
-            this.textBox1.TabIndex = 18;
+            this.familytextbox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familytextbox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familytextbox1.Location = new System.Drawing.Point(500, 73);
+            this.familytextbox1.Multiline = true;
+            this.familytextbox1.Name = "familytextbox1";
+            this.familytextbox1.Size = new System.Drawing.Size(242, 29);
+            this.familytextbox1.TabIndex = 1;
             // 
-            // textBox2
+            // familytextbox4
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox2.Location = new System.Drawing.Point(500, 108);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(242, 29);
-            this.textBox2.TabIndex = 19;
+            this.familytextbox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familytextbox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familytextbox4.Location = new System.Drawing.Point(500, 108);
+            this.familytextbox4.Multiline = true;
+            this.familytextbox4.Name = "familytextbox4";
+            this.familytextbox4.Size = new System.Drawing.Size(242, 29);
+            this.familytextbox4.TabIndex = 4;
             // 
-            // textBox3
+            // familytextbox7
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox3.Location = new System.Drawing.Point(500, 145);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(242, 27);
-            this.textBox3.TabIndex = 20;
+            this.familytextbox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familytextbox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familytextbox7.Location = new System.Drawing.Point(500, 145);
+            this.familytextbox7.Multiline = true;
+            this.familytextbox7.Name = "familytextbox7";
+            this.familytextbox7.Size = new System.Drawing.Size(242, 27);
+            this.familytextbox7.TabIndex = 7;
             // 
-            // textBox4
+            // familytextbox10
             // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox4.Location = new System.Drawing.Point(500, 178);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(242, 29);
-            this.textBox4.TabIndex = 21;
+            this.familytextbox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familytextbox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familytextbox10.Location = new System.Drawing.Point(500, 178);
+            this.familytextbox10.Multiline = true;
+            this.familytextbox10.Name = "familytextbox10";
+            this.familytextbox10.Size = new System.Drawing.Size(242, 29);
+            this.familytextbox10.TabIndex = 10;
             // 
-            // textBox5
+            // familytextbox2
             // 
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox5.Location = new System.Drawing.Point(748, 73);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(242, 29);
-            this.textBox5.TabIndex = 22;
+            this.familytextbox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familytextbox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familytextbox2.Location = new System.Drawing.Point(748, 73);
+            this.familytextbox2.Multiline = true;
+            this.familytextbox2.Name = "familytextbox2";
+            this.familytextbox2.Size = new System.Drawing.Size(242, 29);
+            this.familytextbox2.TabIndex = 2;
             // 
-            // textBox6
+            // familytextbox5
             // 
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox6.Location = new System.Drawing.Point(748, 108);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(242, 29);
-            this.textBox6.TabIndex = 23;
+            this.familytextbox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familytextbox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familytextbox5.Location = new System.Drawing.Point(748, 108);
+            this.familytextbox5.Multiline = true;
+            this.familytextbox5.Name = "familytextbox5";
+            this.familytextbox5.Size = new System.Drawing.Size(242, 29);
+            this.familytextbox5.TabIndex = 5;
             // 
-            // textBox7
+            // familytextbox11
             // 
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox7.Location = new System.Drawing.Point(748, 178);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(242, 29);
-            this.textBox7.TabIndex = 24;
+            this.familytextbox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familytextbox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familytextbox11.Location = new System.Drawing.Point(748, 178);
+            this.familytextbox11.Multiline = true;
+            this.familytextbox11.Name = "familytextbox11";
+            this.familytextbox11.Size = new System.Drawing.Size(242, 29);
+            this.familytextbox11.TabIndex = 11;
             // 
-            // textBox8
+            // familytextbox8
             // 
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox8.Location = new System.Drawing.Point(748, 145);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(242, 27);
-            this.textBox8.TabIndex = 25;
+            this.familytextbox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familytextbox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familytextbox8.Location = new System.Drawing.Point(748, 145);
+            this.familytextbox8.Multiline = true;
+            this.familytextbox8.Name = "familytextbox8";
+            this.familytextbox8.Size = new System.Drawing.Size(242, 27);
+            this.familytextbox8.TabIndex = 8;
             // 
-            // textBox9
+            // familytextbox3
             // 
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox9.Location = new System.Drawing.Point(996, 73);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(245, 29);
-            this.textBox9.TabIndex = 26;
+            this.familytextbox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familytextbox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familytextbox3.Location = new System.Drawing.Point(996, 73);
+            this.familytextbox3.Multiline = true;
+            this.familytextbox3.Name = "familytextbox3";
+            this.familytextbox3.Size = new System.Drawing.Size(245, 29);
+            this.familytextbox3.TabIndex = 3;
             // 
-            // textBox10
+            // familytextbox6
             // 
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox10.Location = new System.Drawing.Point(996, 108);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(245, 29);
-            this.textBox10.TabIndex = 27;
+            this.familytextbox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familytextbox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familytextbox6.Location = new System.Drawing.Point(996, 108);
+            this.familytextbox6.Multiline = true;
+            this.familytextbox6.Name = "familytextbox6";
+            this.familytextbox6.Size = new System.Drawing.Size(245, 29);
+            this.familytextbox6.TabIndex = 6;
             // 
-            // textBox11
+            // familytextbox9
             // 
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox11.Location = new System.Drawing.Point(996, 145);
-            this.textBox11.Multiline = true;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(245, 27);
-            this.textBox11.TabIndex = 28;
+            this.familytextbox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familytextbox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familytextbox9.Location = new System.Drawing.Point(996, 145);
+            this.familytextbox9.Multiline = true;
+            this.familytextbox9.Name = "familytextbox9";
+            this.familytextbox9.Size = new System.Drawing.Size(245, 27);
+            this.familytextbox9.TabIndex = 9;
             // 
-            // textBox12
+            // familytextbox12
             // 
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox12.Location = new System.Drawing.Point(996, 178);
-            this.textBox12.Multiline = true;
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(245, 29);
-            this.textBox12.TabIndex = 29;
+            this.familytextbox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.familytextbox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.familytextbox12.Location = new System.Drawing.Point(996, 178);
+            this.familytextbox12.Multiline = true;
+            this.familytextbox12.Name = "familytextbox12";
+            this.familytextbox12.Size = new System.Drawing.Size(245, 29);
+            this.familytextbox12.TabIndex = 12;
             // 
-            // groupBox1
+            // presentAddressgroupbox
             // 
-            this.groupBox1.Controls.Add(this.tableLayoutPanel1);
-            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(170)))), ((int)(((byte)(255)))));
-            this.groupBox1.Location = new System.Drawing.Point(12, 743);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1254, 249);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Cutomer Family and Address Detail";
+            this.presentAddressgroupbox.Controls.Add(this.tableLayoutPanel1);
+            this.presentAddressgroupbox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.presentAddressgroupbox.ForeColor = System.Drawing.Color.Black;
+            this.presentAddressgroupbox.Location = new System.Drawing.Point(8, 748);
+            this.presentAddressgroupbox.Name = "presentAddressgroupbox";
+            this.presentAddressgroupbox.Size = new System.Drawing.Size(1254, 254);
+            this.presentAddressgroupbox.TabIndex = 2;
+            this.presentAddressgroupbox.TabStop = false;
+            this.presentAddressgroupbox.Text = "Present Address";
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.ColumnCount = 5;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.Controls.Add(this.textBox13, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label3, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label4, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label5, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label6, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label7, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.label8, 0, 5);
-            this.tableLayoutPanel1.Controls.Add(this.label9, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label10, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label11, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label12, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.label13, 1, 5);
-            this.tableLayoutPanel1.Controls.Add(this.familydetails1, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.familydetails4, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.familydetails7, 2, 4);
-            this.tableLayoutPanel1.Controls.Add(this.familydetails10, 2, 5);
-            this.tableLayoutPanel1.Controls.Add(this.familydetails2, 3, 2);
-            this.tableLayoutPanel1.Controls.Add(this.familydetails5, 3, 3);
-            this.tableLayoutPanel1.Controls.Add(this.familydetails8, 3, 4);
-            this.tableLayoutPanel1.Controls.Add(this.familydetails11, 3, 5);
-            this.tableLayoutPanel1.Controls.Add(this.familydetails3, 4, 2);
-            this.tableLayoutPanel1.Controls.Add(this.familydetails6, 4, 3);
-            this.tableLayoutPanel1.Controls.Add(this.familydetails9, 4, 4);
-            this.tableLayoutPanel1.Controls.Add(this.familydetails12, 4, 5);
+            this.tableLayoutPanel1.ColumnCount = 9;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.58394F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.16545F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.58394F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.58394F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.16545F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.58394F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.58394F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.16545F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.58394F));
+            this.tableLayoutPanel1.Controls.Add(this.prsthanalabel, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.prsgbstreet, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.prsDevisionlabel, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.prspostofficelabel, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.prsgbaddress, 3, 2);
+            this.tableLayoutPanel1.Controls.Add(this.prscellnolabel, 6, 2);
+            this.tableLayoutPanel1.Controls.Add(this.prsdistrictlabel, 6, 0);
+            this.tableLayoutPanel1.Controls.Add(this.prsCountrycomboBox, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.prsThanacomboBox, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.prsdevisioncombobox, 4, 0);
+            this.tableLayoutPanel1.Controls.Add(this.prspostofficecomboBox, 4, 1);
+            this.tableLayoutPanel1.Controls.Add(this.prsdistrictcomboBox, 7, 0);
+            this.tableLayoutPanel1.Controls.Add(this.prsGBstreettextBox, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.prsgbaddresstextBox, 4, 2);
+            this.tableLayoutPanel1.Controls.Add(this.prscellnotextbox, 7, 2);
+            this.tableLayoutPanel1.Controls.Add(this.prscountrylabel, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.prsgbstreetviewbox, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.prsgbaddressviewbox, 5, 2);
+            this.tableLayoutPanel1.Controls.Add(this.prscellnoviewbox, 8, 2);
+            this.tableLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(6, 30);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 7;
+            this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1244, 214);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1248, 109);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // textBox13
+            // prscountrylabel
             // 
-            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tableLayoutPanel1.SetColumnSpan(this.textBox13, 4);
-            this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox13.Location = new System.Drawing.Point(314, 3);
-            this.textBox13.Multiline = true;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(909, 29);
-            this.textBox13.TabIndex = 1;
+            this.prscountrylabel.AutoSize = true;
+            this.prscountrylabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prscountrylabel.Location = new System.Drawing.Point(3, 0);
+            this.prscountrylabel.Name = "prscountrylabel";
+            this.prscountrylabel.Size = new System.Drawing.Size(52, 16);
+            this.prscountrylabel.TabIndex = 0;
+            this.prscountrylabel.Text = "Country";
             // 
-            // label2
+            // prsthanalabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(3, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 16);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Customer ID";
+            this.prsthanalabel.AutoSize = true;
+            this.prsthanalabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prsthanalabel.Location = new System.Drawing.Point(3, 35);
+            this.prsthanalabel.Name = "prsthanalabel";
+            this.prsthanalabel.Size = new System.Drawing.Size(46, 16);
+            this.prsthanalabel.TabIndex = 1;
+            this.prsthanalabel.Text = "Thana";
             // 
-            // label3
+            // prsgbstreet
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(3, 35);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 16);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Sub Type";
+            this.prsgbstreet.AutoSize = true;
+            this.prsgbstreet.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prsgbstreet.Location = new System.Drawing.Point(3, 70);
+            this.prsgbstreet.Name = "prsgbstreet";
+            this.prsgbstreet.Size = new System.Drawing.Size(64, 16);
+            this.prsgbstreet.TabIndex = 2;
+            this.prsgbstreet.Text = "GB Street";
             // 
-            // label4
+            // prsDevisionlabel
             // 
-            this.label4.AutoSize = true;
-            this.tableLayoutPanel1.SetColumnSpan(this.label4, 3);
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(500, 35);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(120, 16);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "Reporting Address";
+            this.prsDevisionlabel.AutoSize = true;
+            this.prsDevisionlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prsDevisionlabel.Location = new System.Drawing.Point(418, 0);
+            this.prsDevisionlabel.Name = "prsDevisionlabel";
+            this.prsDevisionlabel.Size = new System.Drawing.Size(60, 16);
+            this.prsDevisionlabel.TabIndex = 4;
+            this.prsDevisionlabel.Text = "Devision";
             // 
-            // label5
+            // prspostofficelabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(3, 70);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 16);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Full Name";
+            this.prspostofficelabel.AutoSize = true;
+            this.prspostofficelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prspostofficelabel.Location = new System.Drawing.Point(418, 35);
+            this.prspostofficelabel.Name = "prspostofficelabel";
+            this.prspostofficelabel.Size = new System.Drawing.Size(71, 16);
+            this.prspostofficelabel.TabIndex = 5;
+            this.prspostofficelabel.Text = "Post Office";
             // 
-            // label6
+            // prsgbaddress
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(3, 105);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 16);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "Father Name";
+            this.prsgbaddress.AutoSize = true;
+            this.prsgbaddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prsgbaddress.Location = new System.Drawing.Point(418, 70);
+            this.prsgbaddress.Name = "prsgbaddress";
+            this.prsgbaddress.Size = new System.Drawing.Size(80, 16);
+            this.prsgbaddress.TabIndex = 6;
+            this.prsgbaddress.Text = "GB Address";
             // 
-            // label7
+            // prsdistrictlabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(3, 142);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(88, 16);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Mother Name";
+            this.prsdistrictlabel.AutoSize = true;
+            this.prsdistrictlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prsdistrictlabel.Location = new System.Drawing.Point(833, 0);
+            this.prsdistrictlabel.Name = "prsdistrictlabel";
+            this.prsdistrictlabel.Size = new System.Drawing.Size(47, 16);
+            this.prsdistrictlabel.TabIndex = 8;
+            this.prsdistrictlabel.Text = "District";
             // 
-            // label8
+            // prscellnolabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(3, 175);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(94, 16);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "Spouse Name";
+            this.prscellnolabel.AutoSize = true;
+            this.prscellnolabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prscellnolabel.Location = new System.Drawing.Point(833, 70);
+            this.prscellnolabel.Name = "prscellnolabel";
+            this.prscellnolabel.Size = new System.Drawing.Size(51, 16);
+            this.prscellnolabel.TabIndex = 9;
+            this.prscellnolabel.Text = "Cell No";
             // 
-            // label9
+            // prsCountrycomboBox
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(314, 70);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(25, 16);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "Mr.";
+            this.tableLayoutPanel1.SetColumnSpan(this.prsCountrycomboBox, 2);
+            this.prsCountrycomboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.prsCountrycomboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.prsCountrycomboBox.FormattingEnabled = true;
+            this.prsCountrycomboBox.Items.AddRange(new object[] {
+            "Afghanistan",
+            "Albania",
+            "Algeria",
+            "Andorra",
+            "Angola",
+            "Antigua and Barbuda",
+            "Argentina",
+            "Armenia",
+            "Australia",
+            "Austria",
+            "Azerbaijan",
+            "Bahamas",
+            "Bahrain",
+            "Bangladesh",
+            "Barbados",
+            "Belarus",
+            "Belgium",
+            "Belize",
+            "Benin",
+            "Bhutan",
+            "Bolivia",
+            "Bosnia and Herzegovina",
+            "Botswana",
+            "Brazil",
+            "Brunei",
+            "Bulgaria",
+            "Burkina Faso",
+            "Burundi",
+            "Côte d\'Ivoire",
+            "Cabo Verde",
+            "Cambodia",
+            "Cameroon",
+            "Canada",
+            "Central African Republic",
+            "Chad",
+            "Chile",
+            "China",
+            "Colombia",
+            "Comoros",
+            "Congo (Congo-Brazzaville)",
+            "Costa Rica",
+            "Croatia",
+            "Cuba",
+            "Cyprus",
+            "Czechia (Czech Republic)",
+            "Democratic Republic of the Congo",
+            "Denmark",
+            "Djibouti",
+            "Dominica",
+            "Dominican Republic",
+            "Ecuador",
+            "Egypt",
+            "El Salvador",
+            "Equatorial Guinea",
+            "Eritrea",
+            "Estonia",
+            "Eswatini (fmr. \"Swaziland\")",
+            "Ethiopia",
+            "Fiji",
+            "Finland",
+            "France",
+            "Gabon",
+            "Gambia",
+            "Georgia",
+            "Germany",
+            "Ghana",
+            "Greece",
+            "Grenada",
+            "Guatemala",
+            "Guinea",
+            "Guinea-Bissau",
+            "Guyana",
+            "Haiti",
+            "Holy See",
+            "Honduras",
+            "Hungary",
+            "Iceland",
+            "India",
+            "Indonesia",
+            "Iran",
+            "Iraq",
+            "Ireland",
+            "Israel",
+            "Italy",
+            "Jamaica",
+            "Japan",
+            "Jordan",
+            "Kazakhstan",
+            "Kenya",
+            "Kiribati",
+            "Kuwait",
+            "Kyrgyzstan",
+            "Laos",
+            "Latvia",
+            "Lebanon",
+            "Lesotho",
+            "Liberia",
+            "Libya",
+            "Liechtenstein",
+            "Lithuania",
+            "Luxembourg",
+            "Madagascar",
+            "Malawi",
+            "Malaysia",
+            "Maldives",
+            "Mali",
+            "Malta",
+            "Marshall Islands",
+            "Mauritania",
+            "Mauritius",
+            "Mexico",
+            "Micronesia",
+            "Moldova",
+            "Monaco",
+            "Mongolia",
+            "Montenegro",
+            "Morocco",
+            "Mozambique",
+            "Myanmar (formerly Burma)",
+            "Namibia",
+            "Nauru",
+            "Nepal",
+            "Netherlands",
+            "New Zealand",
+            "Nicaragua",
+            "Niger",
+            "Nigeria",
+            "North Korea",
+            "North Macedonia",
+            "Norway",
+            "Oman",
+            "Pakistan",
+            "Palau",
+            "Palestine State",
+            "Panama",
+            "Papua New Guinea",
+            "Paraguay",
+            "Peru",
+            "Philippines",
+            "Poland",
+            "Portugal",
+            "Qatar",
+            "Romania",
+            "Russia",
+            "Rwanda",
+            "Saint Kitts and Nevis",
+            "Saint Lucia",
+            "Saint Vincent and the Grenadines",
+            "Samoa",
+            "San Marino",
+            "Sao Tome and Principe",
+            "Saudi Arabia",
+            "Senegal",
+            "Serbia",
+            "Seychelles",
+            "Sierra Leone",
+            "Singapore",
+            "Slovakia",
+            "Slovenia",
+            "Solomon Islands",
+            "Somalia",
+            "South Africa",
+            "South Korea",
+            "South Sudan",
+            "Spain",
+            "Sri Lanka",
+            "Sudan",
+            "Suriname",
+            "Sweden",
+            "Switzerland",
+            "Syria",
+            "Tajikistan",
+            "Tanzania",
+            "Thailand",
+            "Timor-Leste",
+            "Togo",
+            "Tonga",
+            "Trinidad and Tobago",
+            "Tunisia",
+            "Turkey",
+            "Turkmenistan",
+            "Tuvalu",
+            "Uganda",
+            "Ukraine",
+            "United Arab Emirates",
+            "United Kingdom",
+            "United States of America",
+            "Uruguay",
+            "Uzbekistan",
+            "Vanuatu",
+            "Venezuela",
+            "Vietnam",
+            "Yemen",
+            "Zambia",
+            "Zimbabwe"});
+            this.prsCountrycomboBox.Location = new System.Drawing.Point(135, 3);
+            this.prsCountrycomboBox.Name = "prsCountrycomboBox";
+            this.prsCountrycomboBox.Size = new System.Drawing.Size(277, 26);
+            this.prsCountrycomboBox.TabIndex = 0;
             // 
-            // label10
+            // prsThanacomboBox
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(314, 35);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(28, 16);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "101";
+            this.tableLayoutPanel1.SetColumnSpan(this.prsThanacomboBox, 2);
+            this.prsThanacomboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.prsThanacomboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.prsThanacomboBox.FormattingEnabled = true;
+            this.prsThanacomboBox.Items.AddRange(new object[] {
+            "Abhaynagar Upazila",
+            "Adamdighi Upazila",
+            "Aditmari Upazila",
+            "Agailjhara Upazila",
+            "Ajmiriganj Upazila",
+            "Akhaura Upazila",
+            "Akkelpur Upazila",
+            "Alamdanga Upazila",
+            "Alfadanga Upazila",
+            "Ali Kadam Upazila",
+            "Amtali Upazila",
+            "Anwara Upazila",
+            "Araihazar Upazila",
+            "Ashuganj Upazila",
+            "Assasuni Upazila",
+            "Astagram Upazila",
+            "Ataikula Upazila",
+            "Atgharia Upazila",
+            "Atpara Upazila",
+            "Atrai Upazila",
+            "Atwari Upazila",
+            "Babuganj Upazila",
+            "Badalgachhi Upazila",
+            "Badarganj Upazila",
+            "Bagaichhari Upazila",
+            "Bagatipara Upazila",
+            "Bagerhat Sadar Upazila",
+            "Bagha Upazila",
+            "Bagherpara Upazila",
+            "Bagmara Upazila",
+            "Bahubal Upazila",
+            "Bajitpur Upazila",
+            "Bakerganj Upazila",
+            "Baksiganj Upazila",
+            "Balaganj Upazila",
+            "Baliadangi Upazila",
+            "Baliakandi Upazila",
+            "Bamna Upazila",
+            "Banaripara Upazila",
+            "Bancharampur Upazila",
+            "Bandar Upazila",
+            "Bandarban Sadar Upazila",
+            "Bandor (Chittagong Port) Thana",
+            "Baniyachong Upazila",
+            "Banshkhali Upazila",
+            "Baraigram Upazila",
+            "Barguna Sadar Upazila",
+            "Barhatta Upazila",
+            "Barisal Sadar Upazila",
+            "Barkal Upazila",
+            "Barlekha Upazila",
+            "Barura Upazila",
+            "Basail Upazila",
+            "Batiaghata Upazila",
+            "Bauphal Upazila",
+            "Beanibazar Upazila",
+            "Begumganj Upazila",
+            "Belabo Upazila",
+            "Belaichhari Upazila",
+            "Belkuchi Upazila",
+            "Bera Upazila",
+            "Betagi Upazila",
+            "Bhairab Upazila",
+            "Bhaluka Upazila",
+            "Bhandaria Upazila",
+            "Bhanga Upazila",
+            "Bhangura Upazila",
+            "Bhedarganj Upazila",
+            "Bheramara Upazila",
+            "Bhola Sadar Upazila",
+            "Bholahat Upazila",
+            "Bhuapur Upazila",
+            "Bhurungamari Upazila",
+            "Bijoynagar Upazila",
+            "Biral Upazila",
+            "Birampur Upazila",
+            "Birganj Upazila",
+            "Bishwamvarpur Upazila",
+            "Bishwanath Upazila",
+            "Boalia Thana",
+            "Boalkhali Upazila",
+            "Boalmari Upazila",
+            "Bochaganj Upazila",
+            "Boda Upazila",
+            "Bogra Sadar Upazila",
+            "Brahmanbaria Sadar Upazila",
+            "Brahmanpara Upazila",
+            "Burhanuddin Upazila",
+            "Burichang Upazila",
+            "Chakaria Upazila",
+            "Chandanaish Upazila",
+            "Chandgaon Thana",
+            "Chandina Upazila",
+            "Chandpur Sadar Upazila",
+            "Char Fasson Upazila",
+            "Char Rajibpur Upazila",
+            "Charbhadrasan Upazila",
+            "Charghat Upazila",
+            "Chatkhil Upazila",
+            "Chatmohar Upazila",
+            "Chauddagram Upazila",
+            "Chaugachha Upazila",
+            "Chauhali Upazila",
+            "Chhagalnaiya Upazila",
+            "Chhatak Upazila",
+            "Chilmari Upazila",
+            "Chirirbandar Upazila",
+            "Chitalmari Upazila",
+            "Chuadanga Sadar Upazila",
+            "Chunarughat Upazila",
+            "Comilla Adarsha Sadar Upazila",
+            "Comilla Sadar Dakshin Upazila",
+            "Companiganj Upazila",
+            "Companigonj Upazila",
+            "Cox\'s Bazar Sadar Upazila",
+            "Dacope Upazila",
+            "Daganbhuiyan Upazila",
+            "Damudya Upazila",
+            "Damurhuda Upazila",
+            "Dashmina Upazila",
+            "Daudkandi Upazila",
+            "Daulatkhan Upazila",
+            "Daulatpur Thana",
+            "Daulatpur Upazila",
+            "Daulatpur Upazila",
+            "Debhata Upazila",
+            "Debidwar Upazila",
+            "Debiganj Upazila",
+            "Delduar Upazila",
+            "Derai Upazila",
+            "Dewanganj Upazila",
+            "Dhamoirhat Upazila",
+            "Dhamrai Upazila",
+            "Dhanbari Upazila",
+            "Dharampasha Upazila",
+            "Dhobaura Upazila",
+            "Dhunat Upazila",
+            "Dhupchanchia Upazila",
+            "Dighalia Upazila",
+            "Dighinala Upazila",
+            "Dimla Upazila",
+            "Dinajpur Sadar Upazila",
+            "Dohar Upazila",
+            "Domar Upazila",
+            "Double Mooring Thana",
+            "Dowarabazar Upazila",
+            "Dumki Upazila",
+            "Dumuria Upazila",
+            "Durgapur Upazila",
+            "Durgapur Upazila",
+            "Fakirhat Upazila",
+            "Faridganj Upazila",
+            "Faridpur Sadar Upazila",
+            "Faridpur Upazila",
+            "Fatikchhari Upazila",
+            "Fenchuganj Upazila",
+            "Feni Sadar Upazila",
+            "Fulbaria Upazila",
+            "Fulgazi Upazila",
+            "Gabtali Upazila",
+            "Gaffargaon Upazila",
+            "Gaibandha Sadar Upazila",
+            "Galachipa Upazila",
+            "Gangachhara Upazila",
+            "Gangni Upazila",
+            "Gauripur Upazila",
+            "Gaurnadi Upazila",
+            "Gazaria Upazila",
+            "Gazipur Sadar Upazila",
+            "Ghatail Upazila",
+            "Ghior Upazila",
+            "Ghoraghat Upazila",
+            "Goalandaghat Upazila",
+            "Gobindaganj Upazila",
+            "Godagari Upazila",
+            "Golapganj Upazila",
+            "Gomastapur Upazila",
+            "Gopalganj Sadar Upazila",
+            "Gopalpur Upazila",
+            "Gosairhat Upazila",
+            "Gowainghat Upazila",
+            "Gurudaspur Upazila",
+            "Habiganj Sadar Upazila",
+            "Haimchar Upazila",
+            "Hakimpur Upazila",
+            "Haluaghat Upazila",
+            "Harinakunda Upazila",
+            "Harintana Thana",
+            "Haripur Upazila",
+            "Harirampur Upazila",
+            "Hathazari Upazila",
+            "Hatibandha Upazila",
+            "Hatiya Upazila",
+            "Haziganj Upazila",
+            "Hizla Upazila",
+            "Homna Upazila",
+            "Hossainpur Upazila",
+            "Ishwardi Upazila",
+            "Ishwarganj Upazila",
+            "Islampur Upazila",
+            "Itna Upazila",
+            "Jagannathpur Upazila",
+            "Jaintiapur Upazila",
+            "Jaldhaka Upazila",
+            "Jamalganj Upazila",
+            "Jamalpur Sadar Upazila",
+            "Jessore Sadar Upazila",
+            "Jhalokati Sadar Upazila",
+            "Jhenaidah Sadar Upazila",
+            "Jhenaigati Upazila",
+            "Jhikargachha Upazila",
+            "Jibannagar Upazila",
+            "Joypurhat Sadar Upazila",
+            "Juraichhari Upazila",
+            "Juri Upazila",
+            "Kabirhat Upazila",
+            "Kachua Upazila",
+            "Kachua Upazila",
+            "Kahaloo Upazila",
+            "Kaharole Upazila",
+            "Kalai Upazila",
+            "Kalapara Upazila",
+            "Kalaroa Upazila",
+            "Kalia Upazila",
+            "Kaliakair Upazila",
+            "Kaliganj Upazila",
+            "Kaliganj Upazila",
+            "Kaliganj Upazila",
+            "Kaliganj Upazila",
+            "Kalihati Upazila",
+            "Kalkini Upazila",
+            "Kalmakanda Upazila",
+            "Kalukhali Upazila",
+            "Kamalganj Upazila",
+            "Kamalnagar Upazila",
+            "Kamarkhanda Upazila",
+            "Kanaighat Upazila",
+            "Kapasia Upazila",
+            "Kaptai Upazila",
+            "Karimganj Upazila",
+            "Kasba Upazila",
+            "Kashiani Upazila",
+            "Kathalia Upazila",
+            "Katiadi Upazila",
+            "Kaunia Upazila",
+            "Kawkhali (Betbunia) Upazila",
+            "Kawkhali Upazila",
+            "Kazipur Upazila",
+            "Kendua Upazila",
+            "Keraniganj Upazila",
+            "Keshabpur Upazila",
+            "Khagrachhari Upazila",
+            "Khaliajuri Upazila",
+            "Khalishpur Thana",
+            "Khan Jahan Ali Thana",
+            "Khansama Upazila",
+            "Khetlal Upazila",
+            "Khoksa Upazila",
+            "Kishoreganj Sadar Upazila",
+            "Kishoreganj Upazila",
+            "Kotalipara Upazila",
+            "Kotchandpur Upazila",
+            "Kotwali Thana",
+            "Kotwali Thana",
+            "Koyra Upazila",
+            "Kulaura Upazila",
+            "Kuliarchar Upazila",
+            "Kumarkhali Upazila",
+            "Kurigram Sadar Upazila",
+            "Kushtia Sadar Upazila",
+            "Kutubdia Upazila",
+            "Lakhai Upazila",
+            "Laksam Upazila",
+            "Lakshmichhari Upazila",
+            "Lakshmipur Sadar Upazila",
+            "Lalmohan Upazila",
+            "Lalmonirhat Sadar Upazila",
+            "Lalpur Upazila",
+            "Lama Upazila",
+            "Langadu Upazila",
+            "Lohagara Upazila",
+            "Lohagara Upazila",
+            "Lohajang Upazila",
+            "Madan Upazila",
+            "Madarganj Upazila",
+            "Madaripur Sadar Upazila",
+            "Madhabpur Upazila",
+            "Madhukhali Upazila",
+            "Madhupur Upazila",
+            "Magura Sadar Upazila",
+            "Mahalchhari Upazila",
+            "Maheshkhali Upazila",
+            "Maheshpur Upazila",
+            "Manda Upazila",
+            "Manikchhari Upazila",
+            "Manikgonj Sadar Upazila",
+            "Manirampur Upazila",
+            "Manpura Upazila",
+            "Mathbaria Upazila",
+            "Matihar Thana",
+            "Matiranga Upazila",
+            "Matlab Dakshin Upazila",
+            "Matlab Uttar Upazila",
+            "Meghna Upazila",
+            "Mehendiganj Upazila",
+            "Meherpur Sadar Upazila",
+            "Melandaha Upazila",
+            "Mirpur Upazila",
+            "Mirsharai Upazila",
+            "Mirzaganj Upazila",
+            "Mirzapur Upazila",
+            "Mithamain Upazila",
+            "Mithapukur Upazila",
+            "Mohadevpur Upazila",
+            "Mohammadpur Upazila",
+            "Mohanganj Upazila",
+            "Mohanpur Upazila",
+            "Mollahat Upazila",
+            "Mongla Upazila",
+            "Monohardi Upazila",
+            "Monohargonj Upazila",
+            "Morrelganj Upazila",
+            "Moulvibazar Sadar Upazila",
+            "Mujibnagar Upazila",
+            "Muksudpur Upazila",
+            "Muktagachha Upazila",
+            "Muladi Upazila",
+            "Munshiganj Sadar Upazila",
+            "Muradnagar Upazila",
+            "Mymensingh Sadar Upazila",
+            "Nabiganj Upazila",
+            "Nabinagar Upazila",
+            "Nachole Upazila",
+            "Nagarkanda Upazila",
+            "Nagarpur Upazila",
+            "Nageshwari Upazila",
+            "Naikhongchhari Upazila",
+            "Nakla Upazila",
+            "Nalchity Upazila",
+            "Naldanga Upazila",
+            "Nalitabari Upazila",
+            "Nandail Upazila",
+            "Nandigram Upazila",
+            "Nangalkot Upazila",
+            "Naniyachar Upazila",
+            "Naogaon Sadar Upazila",
+            "Naragati Thana",
+            "Narail Sadar Upazila",
+            "Narayanganj Sadar Upazila",
+            "Naria Upazila",
+            "Narsingdi Sadar Upazila",
+            "Nasirnagar Upazila",
+            "Natore Sadar Upazila",
+            "Nawabganj Sadar Upazila",
+            "Nawabganj Upazila",
+            "Nawabganj Upazila",
+            "Nazirpur Upazila",
+            "Nesarabad (Swarupkati) Upazila",
+            "Netrokona Sadar Upazila",
+            "Niamatpur Upazila",
+            "Nikli Upazila",
+            "Nilphamari Sadar Upazila",
+            "Noakhali Sadar Upazila",
+            "Paba Upazila",
+            "Pabna Sadar Upazila",
+            "Pahartali Thana",
+            "Paikgachha Upazila",
+            "Pakundia Upazila",
+            "Palash Upazila",
+            "Palashbari Upazila",
+            "Panchagarh Sadar Upazila",
+            "Panchbibi Upazila",
+            "Panchhari Upazila",
+            "Panchlaish Thana",
+            "Pangsha Upazila",
+            "Parbatipur Upazila",
+            "Parshuram Upazila",
+            "Patgram Upazila",
+            "Patharghata Upazila",
+            "Patiya Upazila",
+            "Patnitala Upazila",
+            "Patuakhali Sadar Upazila",
+            "Pekua Upazila",
+            "Phulbari Upazila",
+            "Phulbari Upazila",
+            "Phulchhari Upazila",
+            "Phulpur Upazila",
+            "Phultala Upazila",
+            "Pirgachha Upazila",
+            "Pirganj Upazila",
+            "Pirganj Upazila",
+            "Pirojpur Sadar Upazila",
+            "Porsha Upazila",
+            "Purbadhala Upazila",
+            "Puthia Upazila",
+            "Raiganj Upazila",
+            "Raipur Upazila",
+            "Raipura Upazila",
+            "Rajapur Upazila",
+            "Rajarhat Upazila",
+            "Rajasthali Upazila",
+            "Rajbari Sadar Upazila",
+            "Rajnagar Upazila",
+            "Rajoir Upazila",
+            "Rajpara Thana",
+            "Ramganj Upazila",
+            "Ramgarh Upazila",
+            "Ramgati Upazila",
+            "Rampal Upazila",
+            "Ramu Upazila",
+            "Rangabali Upazila",
+            "Rangamati Sadar Upazila",
+            "Rangpur Sadar Upazila",
+            "Rangunia Upazila",
+            "Raninagar Upazila",
+            "Ranisankail Upazila",
+            "Raomari Upazila",
+            "Raozan Upazila",
+            "Rowangchhari Upazila",
+            "Ruma Upazila",
+            "Rupganj Upazila",
+            "Rupsha Upazila",
+            "Sadarpur Upazila",
+            "Sadullapur Upazila",
+            "Saidpur Upazila",
+            "Sakhipur Upazila",
+            "Saltha Upazila",
+            "Sandwip Upazila",
+            "Santhia Upazila",
+            "Sapahar Upazila",
+            "Sarail Upazila",
+            "Sarankhola Upazila",
+            "Sariakandi Upazila",
+            "Sarishabari Upazila",
+            "Satkania Upazila",
+            "Satkhira Sadar Upazila",
+            "Saturia Upazila",
+            "Savar Upazila",
+            "Senbagh Upazila",
+            "Shah Mokdum Thana",
+            "Shahjadpur Upazila",
+            "Shahrasti Upazila",
+            "Shailkupa Upazila",
+            "Shajahanpur Upazila",
+            "Shakhipur Upazila",
+            "Shalikha Upazila",
+            "Shariatpur Sadar Upazila",
+            "Sharsha Upazila",
+            "Shekhpara Upazila",
+            "Sherpur Sadar Upazila",
+            "Sherpur Upazila",
+            "Shibchar Upazila",
+            "Shibganj Upazila",
+            "Shibganj Upazila",
+            "Shibpur Upazila",
+            "Shivalaya Upazila",
+            "Shyamnagar Upazila",
+            "Singair Upazila",
+            "Singra Upazila",
+            "Sirajdikhan Upazila",
+            "Sirajganj Sadar Upazila",
+            "Sitakunda Upazila",
+            "Sonadanga Thana",
+            "Sonagazi Upazila",
+            "Sonaimuri Upazila",
+            "Sonargaon Upazila",
+            "Sonatola Upazila",
+            "South Shurma Upazila",
+            "South Sunamganj Upazila",
+            "Sreebardi Upazila",
+            "Sreemangal Upazila",
+            "Sreenagar Upazila",
+            "Sreepur Upazila",
+            "Sreepur Upazila",
+            "Subarnachar Upazila",
+            "Sughatta Upazila",
+            "Sujanagar Upazila",
+            "Sullah Upazila",
+            "Sunamganj Sadar Upazila",
+            "Sundarganj Upazila",
+            "Sylhet Sadar Upazila",
+            "Tahirpur Upazila",
+            "Tala Upazila",
+            "Taltoli Upazila",
+            "Tangail Sadar Upazila",
+            "Tanore Upazila",
+            "Tara Khanda Upazila",
+            "Taraganj Upazila",
+            "Tarail Upazila",
+            "Tarash Upazila",
+            "Tazumuddin Upazila",
+            "Teknaf Upazila",
+            "Terokhada Upazila",
+            "Tetulia Upazila",
+            "Thakurgaon Sadar Upazila",
+            "Thanchi Upazila",
+            "Titas Upazila",
+            "Tongibari Upazila",
+            "Trishal Upazila",
+            "Tungipara Upazila",
+            "Ukhia Upazila",
+            "Ulipur Upazila",
+            "Ullahpara Upazila",
+            "Wazirpur Upazila",
+            "Zakiganj Upazila",
+            "Zanjira Upazila",
+            "Zianagor Upazila"});
+            this.prsThanacomboBox.Location = new System.Drawing.Point(135, 38);
+            this.prsThanacomboBox.Name = "prsThanacomboBox";
+            this.prsThanacomboBox.Size = new System.Drawing.Size(277, 26);
+            this.prsThanacomboBox.TabIndex = 1;
             // 
-            // label11
+            // prsdevisioncombobox
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(314, 105);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(25, 16);
-            this.label11.TabIndex = 15;
-            this.label11.Text = "Mr.";
+            this.tableLayoutPanel1.SetColumnSpan(this.prsdevisioncombobox, 2);
+            this.prsdevisioncombobox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.prsdevisioncombobox.FormattingEnabled = true;
+            this.prsdevisioncombobox.Location = new System.Drawing.Point(550, 3);
+            this.prsdevisioncombobox.Name = "prsdevisioncombobox";
+            this.prsdevisioncombobox.Size = new System.Drawing.Size(277, 26);
+            this.prsdevisioncombobox.TabIndex = 3;
             // 
-            // label12
+            // prspostofficecomboBox
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(314, 142);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(31, 16);
-            this.label12.TabIndex = 16;
-            this.label12.Text = "Mst.";
+            this.tableLayoutPanel1.SetColumnSpan(this.prspostofficecomboBox, 2);
+            this.prspostofficecomboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.prspostofficecomboBox.FormattingEnabled = true;
+            this.prspostofficecomboBox.Location = new System.Drawing.Point(550, 38);
+            this.prspostofficecomboBox.Name = "prspostofficecomboBox";
+            this.prspostofficecomboBox.Size = new System.Drawing.Size(277, 26);
+            this.prspostofficecomboBox.TabIndex = 4;
             // 
-            // label13
+            // prsdistrictcomboBox
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(314, 175);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(14, 16);
-            this.label13.TabIndex = 17;
-            this.label13.Text = "0";
+            this.tableLayoutPanel1.SetColumnSpan(this.prsdistrictcomboBox, 2);
+            this.prsdistrictcomboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.prsdistrictcomboBox.FormattingEnabled = true;
+            this.prsdistrictcomboBox.Location = new System.Drawing.Point(965, 3);
+            this.prsdistrictcomboBox.Name = "prsdistrictcomboBox";
+            this.prsdistrictcomboBox.Size = new System.Drawing.Size(280, 26);
+            this.prsdistrictcomboBox.TabIndex = 6;
             // 
-            // familydetails1
+            // prsGBstreettextBox
             // 
-            this.familydetails1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.familydetails1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.familydetails1.Location = new System.Drawing.Point(500, 73);
-            this.familydetails1.Multiline = true;
-            this.familydetails1.Name = "familydetails1";
-            this.familydetails1.Size = new System.Drawing.Size(242, 29);
-            this.familydetails1.TabIndex = 18;
+            this.prsGBstreettextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.prsGBstreettextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.prsGBstreettextBox.Location = new System.Drawing.Point(135, 73);
+            this.prsGBstreettextBox.Name = "prsGBstreettextBox";
+            this.prsGBstreettextBox.Size = new System.Drawing.Size(145, 24);
+            this.prsGBstreettextBox.TabIndex = 2;
             // 
-            // familydetails4
+            // prsgbaddresstextBox
             // 
-            this.familydetails4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.familydetails4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.familydetails4.Location = new System.Drawing.Point(500, 108);
-            this.familydetails4.Multiline = true;
-            this.familydetails4.Name = "familydetails4";
-            this.familydetails4.Size = new System.Drawing.Size(242, 29);
-            this.familydetails4.TabIndex = 19;
+            this.prsgbaddresstextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.prsgbaddresstextBox.Location = new System.Drawing.Point(550, 73);
+            this.prsgbaddresstextBox.Name = "prsgbaddresstextBox";
+            this.prsgbaddresstextBox.Size = new System.Drawing.Size(145, 24);
+            this.prsgbaddresstextBox.TabIndex = 5;
             // 
-            // familydetails7
+            // prscellnotextbox
             // 
-            this.familydetails7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.familydetails7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.familydetails7.Location = new System.Drawing.Point(500, 145);
-            this.familydetails7.Multiline = true;
-            this.familydetails7.Name = "familydetails7";
-            this.familydetails7.Size = new System.Drawing.Size(242, 27);
-            this.familydetails7.TabIndex = 20;
+            this.prscellnotextbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.prscellnotextbox.Location = new System.Drawing.Point(965, 73);
+            this.prscellnotextbox.Name = "prscellnotextbox";
+            this.prscellnotextbox.Size = new System.Drawing.Size(145, 24);
+            this.prscellnotextbox.TabIndex = 7;
             // 
-            // familydetails10
+            // prsgbstreetviewbox
             // 
-            this.familydetails10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.familydetails10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.familydetails10.Location = new System.Drawing.Point(500, 178);
-            this.familydetails10.Multiline = true;
-            this.familydetails10.Name = "familydetails10";
-            this.familydetails10.Size = new System.Drawing.Size(242, 29);
-            this.familydetails10.TabIndex = 21;
+            this.prsgbstreetviewbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.prsgbstreetviewbox.Location = new System.Drawing.Point(286, 73);
+            this.prsgbstreetviewbox.Name = "prsgbstreetviewbox";
+            this.prsgbstreetviewbox.Size = new System.Drawing.Size(126, 24);
+            this.prsgbstreetviewbox.TabIndex = 21;
             // 
-            // familydetails2
+            // prsgbaddressviewbox
             // 
-            this.familydetails2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.familydetails2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.familydetails2.Location = new System.Drawing.Point(748, 73);
-            this.familydetails2.Multiline = true;
-            this.familydetails2.Name = "familydetails2";
-            this.familydetails2.Size = new System.Drawing.Size(242, 29);
-            this.familydetails2.TabIndex = 22;
+            this.prsgbaddressviewbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.prsgbaddressviewbox.Location = new System.Drawing.Point(701, 73);
+            this.prsgbaddressviewbox.Name = "prsgbaddressviewbox";
+            this.prsgbaddressviewbox.Size = new System.Drawing.Size(126, 24);
+            this.prsgbaddressviewbox.TabIndex = 22;
             // 
-            // familydetails5
+            // prscellnoviewbox
             // 
-            this.familydetails5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.familydetails5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.familydetails5.Location = new System.Drawing.Point(748, 108);
-            this.familydetails5.Multiline = true;
-            this.familydetails5.Name = "familydetails5";
-            this.familydetails5.Size = new System.Drawing.Size(242, 29);
-            this.familydetails5.TabIndex = 23;
-            // 
-            // familydetails8
-            // 
-            this.familydetails8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.familydetails8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.familydetails8.Location = new System.Drawing.Point(748, 145);
-            this.familydetails8.Multiline = true;
-            this.familydetails8.Name = "familydetails8";
-            this.familydetails8.Size = new System.Drawing.Size(242, 27);
-            this.familydetails8.TabIndex = 25;
-            // 
-            // familydetails11
-            // 
-            this.familydetails11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.familydetails11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.familydetails11.Location = new System.Drawing.Point(748, 178);
-            this.familydetails11.Multiline = true;
-            this.familydetails11.Name = "familydetails11";
-            this.familydetails11.Size = new System.Drawing.Size(242, 29);
-            this.familydetails11.TabIndex = 24;
-            // 
-            // familydetails3
-            // 
-            this.familydetails3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.familydetails3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.familydetails3.Location = new System.Drawing.Point(996, 73);
-            this.familydetails3.Multiline = true;
-            this.familydetails3.Name = "familydetails3";
-            this.familydetails3.Size = new System.Drawing.Size(245, 29);
-            this.familydetails3.TabIndex = 26;
-            // 
-            // familydetails6
-            // 
-            this.familydetails6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.familydetails6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.familydetails6.Location = new System.Drawing.Point(996, 108);
-            this.familydetails6.Multiline = true;
-            this.familydetails6.Name = "familydetails6";
-            this.familydetails6.Size = new System.Drawing.Size(245, 29);
-            this.familydetails6.TabIndex = 27;
-            // 
-            // familydetails9
-            // 
-            this.familydetails9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.familydetails9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.familydetails9.Location = new System.Drawing.Point(996, 145);
-            this.familydetails9.Multiline = true;
-            this.familydetails9.Name = "familydetails9";
-            this.familydetails9.Size = new System.Drawing.Size(245, 27);
-            this.familydetails9.TabIndex = 28;
-            // 
-            // familydetails12
-            // 
-            this.familydetails12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.familydetails12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.familydetails12.Location = new System.Drawing.Point(996, 178);
-            this.familydetails12.Multiline = true;
-            this.familydetails12.Name = "familydetails12";
-            this.familydetails12.Size = new System.Drawing.Size(245, 29);
-            this.familydetails12.TabIndex = 29;
+            this.prscellnoviewbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.prscellnoviewbox.Location = new System.Drawing.Point(1116, 73);
+            this.prscellnoviewbox.Name = "prscellnoviewbox";
+            this.prscellnoviewbox.Size = new System.Drawing.Size(129, 24);
+            this.prscellnoviewbox.TabIndex = 23;
             // 
             // EntryForm
             // 
@@ -1463,10 +2074,10 @@
             this.CustomerBasicTablePanel.ResumeLayout(false);
             this.CustomerBasicTablePanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.userpicture)).EndInit();
-            this.customerfamilypanel.ResumeLayout(false);
+            this.customerfamilygroupbox.ResumeLayout(false);
             this.CustomerFamilyAddressTableLayout.ResumeLayout(false);
             this.CustomerFamilyAddressTableLayout.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
+            this.presentAddressgroupbox.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
@@ -1526,9 +2137,9 @@
         private System.Windows.Forms.ComboBox maritialstatuscomboBox;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox sectorcomboBox;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label navabrCustomerDetails;
         private System.Windows.Forms.DateTimePicker DOBpicker;
-        private System.Windows.Forms.GroupBox customerfamilypanel;
+        private System.Windows.Forms.GroupBox customerfamilygroupbox;
         private System.Windows.Forms.TableLayoutPanel CustomerFamilyAddressTableLayout;
         private System.Windows.Forms.Label customerIDlabel;
         private System.Windows.Forms.TextBox custmerIDtextBox2;
@@ -1543,45 +2154,39 @@
         private System.Windows.Forms.Label mrLabel2;
         private System.Windows.Forms.Label mstLabel1;
         private System.Windows.Forms.Label zeroLabel;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox familytextbox1;
+        private System.Windows.Forms.TextBox familytextbox4;
+        private System.Windows.Forms.TextBox familytextbox7;
+        private System.Windows.Forms.TextBox familytextbox10;
+        private System.Windows.Forms.TextBox familytextbox2;
+        private System.Windows.Forms.TextBox familytextbox5;
+        private System.Windows.Forms.TextBox familytextbox11;
+        private System.Windows.Forms.TextBox familytextbox8;
+        private System.Windows.Forms.TextBox familytextbox12;
+        private System.Windows.Forms.TextBox familytextbox3;
+        private System.Windows.Forms.TextBox familytextbox6;
+        private System.Windows.Forms.TextBox familytextbox9;
+        private System.Windows.Forms.GroupBox presentAddressgroupbox;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox familydetails1;
-        private System.Windows.Forms.TextBox familydetails4;
-        private System.Windows.Forms.TextBox familydetails7;
-        private System.Windows.Forms.TextBox familydetails10;
-        private System.Windows.Forms.TextBox familydetails2;
-        private System.Windows.Forms.TextBox familydetails5;
-        private System.Windows.Forms.TextBox familydetails8;
-        private System.Windows.Forms.TextBox familydetails11;
-        private System.Windows.Forms.TextBox familydetails3;
-        private System.Windows.Forms.TextBox familydetails6;
-        private System.Windows.Forms.TextBox familydetails9;
-        private System.Windows.Forms.TextBox familydetails12;
+        private System.Windows.Forms.Label prscountrylabel;
+        private System.Windows.Forms.Label prsthanalabel;
+        private System.Windows.Forms.Label prsgbstreet;
+        private System.Windows.Forms.Label prsDevisionlabel;
+        private System.Windows.Forms.Label prspostofficelabel;
+        private System.Windows.Forms.Label prsgbaddress;
+        private System.Windows.Forms.Label prsdistrictlabel;
+        private System.Windows.Forms.Label prscellnolabel;
+        private System.Windows.Forms.ComboBox prsCountrycomboBox;
+        private System.Windows.Forms.ComboBox prsThanacomboBox;
+        private System.Windows.Forms.ComboBox prsdevisioncombobox;
+        private System.Windows.Forms.ComboBox prspostofficecomboBox;
+        private System.Windows.Forms.ComboBox prsdistrictcomboBox;
+        private System.Windows.Forms.TextBox prsGBstreettextBox;
+        private System.Windows.Forms.TextBox prsgbaddresstextBox;
+        private System.Windows.Forms.TextBox prscellnotextbox;
+        private System.Windows.Forms.TextBox prsgbstreetviewbox;
+        private System.Windows.Forms.TextBox prsgbaddressviewbox;
+        private System.Windows.Forms.TextBox prscellnoviewbox;
     }
 }
 
