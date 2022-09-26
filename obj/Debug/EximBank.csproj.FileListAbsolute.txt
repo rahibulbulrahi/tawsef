@@ -9,3 +9,4 @@ F:\tawsef\obj\Debug\EximBank.csproj.GenerateResource.cache
 F:\tawsef\obj\Debug\EximBank.csproj.CoreCompileInputs.cache
 F:\tawsef\obj\Debug\EximBank.exe
 F:\tawsef\obj\Debug\EximBank.pdb
+F:\tawsef\obj\Debug\EximBank.datagridview.resources

@@ -11,17 +11,17 @@ using System.Runtime.InteropServices;
 
 namespace EximBank
 {
-    public partial class EntryForm : Form
+    public partial class datagridview : Form
     {
-        public EntryForm()
+        public datagridview()
         {
             InitializeComponent();
         }
-        // Form Movement
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hwnd, int X, int Y, int Z);
+
 
         private void CloseIcon_Click(object sender, EventArgs e)
         {
@@ -30,7 +30,7 @@ namespace EximBank
 
         private void MinimizeICon_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void navpanel_MouseDown(object sender, MouseEventArgs e)
@@ -39,30 +39,11 @@ namespace EximBank
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
-        private void searchTextbox_Leave(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            if (searchTextbox.Text == "")
-            {
-                searchTextbox.Text = "search";
-                searchTextbox.ForeColor = Color.DarkGray;
-            }
-        }
-
-        private void searchTextbox_Enter(object sender, EventArgs e)
-        {
-            if (searchTextbox.Text == "search")
-            {
-                searchTextbox.Text = "";
-                searchTextbox.ForeColor = Color.Black;
-            }
-
-        }
-
-        private void nextbutton_Click(object sender, EventArgs e)
-        {
-            datagridview data = new datagridview();
+            EntryForm entry = new EntryForm();
             this.Hide();
-            data.Show();
+            entry.Show();
         }
     }
 }

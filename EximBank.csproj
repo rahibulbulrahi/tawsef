@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="datagridview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datagridview.Designer.cs">
+      <DependentUpon>datagridview.cs</DependentUpon>
+    </Compile>
     <Compile Include="EntryForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="datagridview.resx">
+      <DependentUpon>datagridview.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EntryForm.resx">
       <DependentUpon>EntryForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +94,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="icon\icons8_minimize_window_35px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\Back Arrow_35px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
